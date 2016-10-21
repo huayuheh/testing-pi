@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    
+  </head>
+  <body>
+    <canvas id="canvas" width="200" height="100"></canvas>
+    <ul id="messages"></ul>
+    <form action="">
+      <input id="m" autocomplete="off" /><button>Send</button>
+    </form>
+  
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script>
+      var socket = io();
+      var ctx = document.getElementById('canvas').getContext('2d');
+      //建立連線
+      $('form').submit(function(){
+        socket.emit('chat message', $('#m').val());
+        //傳資料給server端
+        $('#m').val('');
+        //傳完清除輸入格
+        return false;
+        //結束這個傳送
+      });
+      socket.on('chat message', function(msg){
+        //接收伺服器端來的資料 顯示在顧客端
+        $('#messages').append($('<li>').text(msg));
+      });
+      socket.on("image", function(info) {
+        if (info.image) {
+          var img = new Image();
+          img.src = 'data:image/jpeg;base64,' + info.buffer;
+          ctx.drawImage(img, 0, 0,200,100);
+        }
+      });
+    </script>
+  </body>
+</html>
