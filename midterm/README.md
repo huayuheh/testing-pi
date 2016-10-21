@@ -55,4 +55,13 @@ process.on('SIGINT', function(){
   process.exit();
 });
 ```
-Test the motion sensor connecting to the raspberry PI correctly. And when the sensor detects motion it sends the signal back to the pi. 
+Test the motion sensor connecting to the raspberry PI correctly. And when the sensor detects motion it sends the signal back to the pi.
+
+##### Motion Sensor with camera
+
+
+
+
+
+
+
