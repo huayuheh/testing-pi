@@ -32,8 +32,10 @@ The RaspberryPi is a mini-computer which needs to be provisioned. Here are the s
 	- git
 	- node
 	- vim
+
 #### Integrating
 The Raspberry Pi will be programmed as a web socket server. The server will run on it's assigned IP address when connected to the wireless router. The Pi will receive commands from a mobile client via web sockets. 
 The Ionic mobile app will be connected to the same wireless router network as the Raspberry Pi. The mobile will use the Raspberry Pi's IP address to connect via web socket. The mobile app will control the camera and the buzzer.
+
 #### Code Snippets
 
