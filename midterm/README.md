@@ -58,9 +58,62 @@ process.on('SIGINT', function(){
 Test the motion sensor connecting to the raspberry PI correctly. And when the sensor detects motion it sends the signal back to the pi.
 
 ##### Motion Sensor with camera
+``` javascript
+var isRec = false;
+motion.watch(function(err, value) {
+  if (err) exit();
+  console.log('Intruder detected..');
+  if (value == 1 && !isRec) {
+    console.log('capturing video.. ');
+    isRec = true;
+    var exec = require('child_process').exec;
+    var video_path = './video' + Date.now() + '.jpg';
+    var cmd = 'raspistill -o ' + video_path ;
+    exec(cmd, function(error, stdout, stderr) {
+      // output is in stdout
+      console.log('Video Saved @ : ', video_path);
+      //require('./mailer').sendEmail(video_path);
+      isRec = false;
+    });
+  }
+});
+```
+This piece of code improves the motion.js to use motion sensor controlling camera taking a picture at the detection moment. The image is named by the current time.
 
+##### Buzzer with sensor
+``` javascript
+ buzzer.writeSync(0);
 
+  motion.watch( function(err, val){
+  console.log(val);
+  if( err ) { console.log('Motion in 21 Error'); return; }
 
+  buzzer.writeSync(val);
+});
+```
+This piece of code improves the motion.js to use the motion sensor to turn on the buzzer.
+**it seems there are some problem of controling the buzzer. the buzzer can't stop.**
+
+##### LED Light
+``` javascript
+var Gpio = require('onoff').Gpio, //onoff module (use npm install onoff)
+  led1 = new Gpio(27, 'out'),
+  led2 = new Gpio(22, 'out'),     //setup GPIO27 as output
+  ledState = 0; 		  //internal variable to track LED state (1 = on, 0 = off)
+
+setInterval( function(){	  //setInterval repeats a function every fixed preset milliseconds
+  led1.writeSync( ledState );
+  led2.writeSync( ledState );
+  ledState = ledState ? 0 : 1;    //update next ledState, if 1 then 0 else if 0 then 1
+}, 100);			  //setInterval fixed preset milliseconds
+
+process.on('SIGINT', function(){  //exit properly
+  led1.unexport();
+  led2.unexport();
+  process.exit();
+});
+```
+Sometimes inside of the feeder is dark, so user or system want to turn on the light for better photo shotting. In this piece of code, two LEDs control by raspberry pi to make a light pattern.
 
 
 
