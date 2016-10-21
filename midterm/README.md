@@ -38,4 +38,21 @@ The Raspberry Pi will be programmed as a web socket server. The server will run 
 The Ionic mobile app will be connected to the same wireless router network as the Raspberry Pi. The mobile will use the Raspberry Pi's IP address to connect via web socket. The mobile app will control the camera and the buzzer.
 
 #### Code Snippets
+##### Motion Sensor
+``` javascript
+var gpio = require('onoff').Gpio
+  , motion = new gpio(21, 'in', 'both');
 
+motion.watch( function(err, val){
+  if( err ) { console.log('Motion in 21 Error'); return; }
+
+  console.log('Motion in 21 is ' + (val ? 'ACTIVE' : 'INACTIVE') +': ' + new Date().toLocaleString() );
+
+});
+
+process.on('SIGINT', function(){
+  motion.unexport();
+  process.exit();
+});
+```
+Test the motion sensor connecting to the raspberry PI correctly. And when the sensor detects motion it sends the signal back to the pi. 
