@@ -2,16 +2,16 @@
 ## Title: Birfeeder
 ### ![Logo](https://raw.githubusercontent.com/JesusGuerrero/hana-iot/master/midterm/images/birfeeder-logo.jpg?token=APcrcs3DpBCOOEf_B82Jj9r5QfGoJECNks5YEvMywA%3D%3D)
 ## Problem
-When I was a kid, my parents took me to woods and beaches watching wild birds during weekends. I enjoy using telescopes to observe colorful birds, the most beautiful and adorable creatures in the world. Unfortunately, bird watching costs a lot of time for waiting and traveling around for searching, so not many people can enjoy this joy. The bird feeder is an easy and straightforward way for people to watch birds and enjoy this activity. But the traditional bird feeder has some issues might decrease beginner’s enthusiasm such as other animal stealing seeds, long time waiting without any reward and missing visited birds during working hours.
+When I was a kid, my parents took me to the woods and the beach to watch wild birds on the weekends. I enjoyed using telescopes to observe colorful birds, the most beautiful and adorable creatures in the world. Unfortunately, bird watching takes a lot of time to wait and search for birds, so not many people have the patience to enjoy this. The bird feeder is an easy and straightforward way for people to watch birds and enjoy this activity. But the traditional bird feeder has some issues that might detract from the beginner’s enthusiasm such as other animals stealing seeds, and a long wait time without any reward. You could miss rare birds during regular work hours.
 ## Solution
 ![function](https://raw.githubusercontent.com/JesusGuerrero/hana-iot/master/midterm/images/birfeeder-function.jpeg?token=APcrcllzMZpD3Jr3HIidxweejTfdOOtTks5YEvL_wA%3D%3D)
-Birfeeder can solve that problem for beginners and let them dive into bird world effortless because of the motion sensor, the camera, and buzzer. The motion sensor can detect the live creature near the feeder, and the camera will take a picture and send the picture to client’s phone, so the owner can see the photo then decide to expel squirrels and other rodents by buzzer or watch the birds in person. Even if the proprietor is not nearby, he can choose to record the video for later watching so that he will never miss up the moment that birds visit his birfeeder.
+BirdFeeder can solve that problem for beginners and let them dive into the world of birds effortlessly because of the motion sensor, the camera, and buzzer. The motion sensor can detect the live creature near the feeder, and the camera will take a picture and send the picture to the client’s phone. As a result, the owner can see the photo then decide to expel squirrels and other rodents by buzzer or watch the birds in person. Even if the proprietor is not nearby, he can choose to record the video for later watching so that he will never miss the moment that birds visit his BirdFeeder.
 ### High-level System Design
 ![Feeder to App](https://raw.githubusercontent.com/JesusGuerrero/hana-iot/master/midterm/images/birfeeder-system1.jpeg?token=APcrcr0hGBVhSvvNCi5Y4BlLKgTeQkmBks5YEvNtwA%3D%3D)
-For real birfeeder product, when the PIR sensor detects action, the system takes a picture and send the photo to the web server (Heroku or firebase) through the private network to public network. Then the web server sends the notification with the picture to user’s application through the public network using wifi or 4G so that user can receive the alarm outside of the home.
+For real birfeeder product, when the PIR sensor detects action, the system takes a picture and sends the photo to the web server (Heroku or firebase) through the private network to the public network. Then the web server sends the notification with the picture to the user’s application through the public network using wifi or 4G so that user can receive the alarm outside of the home.
 ![App to Feeder](https://raw.githubusercontent.com/JesusGuerrero/hana-iot/master/midterm/images/birfeeder-system2.jpeg?token=APcrcm3PWwQNPWXGN9tWSx1DS4O8TVDpks5YEvOSwA%3D%3D)
-After user sees the picture, the user can decide to turn on the buzzer to expel the unwelcome animals or take a video of this bird. When the user presses the button, the application will send the signal back to the raspberry pi inside of birfeeder through the cloud server. Then the Raspberry Pi controls the buzzer or camera for the request.
-Right now, I'm not sure about my coding ability to use Heroku service to build the online server, so for the prototype, I will try only use the private network for testing. If I have more time and ability, I will try to build the node server on Heroku.
+After the user sees the picture, the user can decide to turn on the buzzer to expel the unwelcome animals or take a video of this bird. When the user presses the button, the application will send the signal back to the Raspberry Pi inside of the BirdFeeder through the cloud server. Then the Raspberry Pi controls the buzzer or camera for the request of video or buzzer.
+Right now, I'm not sure about my coding ability to use Heroku service to build the online server, so for the prototype, I will try only to use the private network for testing. If I had more time and ability, I would try to build the node server on Heroku.
 ## Prototype
 ![Prototype](https://raw.githubusercontent.com/JesusGuerrero/hana-iot/master/midterm/images/birfeeder-prototype.jpg?token=APcrcj5exRmu6f8ojoAWWUAjo8dOkCwlks5YEvNQwA%3D%3D)
 The prototype above will consist of getting the system setup with camera, buzzer, motion sensor, and two LED light.
@@ -55,7 +55,7 @@ process.on('SIGINT', function(){
   process.exit();
 });
 ```
-Test the motion sensor connecting to the raspberry PI correctly. And when the sensor detects motion it sends the signal back to the pi.
+Test the motion sensor connecting to the raspberry Pi correctly. And when the sensor detects motion it sends the signal back to the Pi.
 
 #### Motion Sensor with camera
 ``` javascript
@@ -78,7 +78,7 @@ motion.watch(function(err, value) {
   }
 });
 ```
-This piece of code improves the motion.js to use motion sensor controlling camera taking a picture at the detection moment. The image is named by the current time.
+This piece of code improves the motion.js to use the motion sensor controlling camera to take a picture at the moment of detection. The image is saved based on the current time.
 
 #### Buzzer with sensor
 ``` javascript
@@ -92,7 +92,6 @@ This piece of code improves the motion.js to use motion sensor controlling camer
 });
 ```
 This piece of code improves the motion.js to use the motion sensor to turn on the buzzer.
-**it seems there are some problem of controling the buzzer. the buzzer can't stop.**
 
 #### LED Light
 ``` javascript
@@ -113,7 +112,7 @@ process.on('SIGINT', function(){  //exit properly
   process.exit();
 });
 ```
-Sometimes inside of the feeder is dark, so user or system want to turn on the light for better photo shotting. In this piece of code, two LEDs control by raspberry pi to make a light pattern.
+Sometimes the inside of the feeder is dark, so the user wants to turn on the light for better photography. In this piece of code, two LEDs are controled by raspberry Pi to make a light pattern.
 
 
 
