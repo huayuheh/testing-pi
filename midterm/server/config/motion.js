@@ -5,6 +5,7 @@
   io = null;
   var isRec = false;
   var fs = require('fs');
+  led.writeSync( 0 );
 
 motion.watch(function(err, value) {
   if (err) exit();
