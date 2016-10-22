@@ -1,11 +1,11 @@
  var gpio = require('onoff').Gpio,
   motion = new gpio(21, 'in', 'both'),
-  led = new gpio(27, 'out'),      //setup GPIO27 as output
-  ledState = 0,      //internal variable to track LED state (1 = on, 0 = off)
+  buzzer = new gpio(16, 'out'),      //setup GPIO27 as output
+  buzzerState = 0,      //internal variable to track LED state (1 = on, 0 = off)
   io = null;
   var isRec = false;
   var fs = require('fs');
-  led.writeSync( 0 );
+  buzzer.writeSync( 0 );
 
 motion.watch(function(err, value) {
   if (err) exit();
@@ -37,9 +37,11 @@ motion.watch(function(err, value) {
 
       socket.on('chat message', function(msg){
           //接收從顧客端來的資料
-          led.writeSync( 1 );
-          //傳送顧客端來的資料 回顧客端
-        console.log("turn on led light");
+          buzzer.writeSync( 1 );
+
+        console.log("turn on buzzer light");
+
+        setTimeout(function(){ buzzer.writeSync( 0 ); }, 500);
       });
 
 
@@ -56,6 +58,7 @@ motion.watch(function(err, value) {
 
 process.on('SIGINT', function(){
   motion.unexport();
+  buzzer.unexport();
   process.exit();
 });
 
