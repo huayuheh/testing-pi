@@ -114,6 +114,68 @@ process.on('SIGINT', function(){  //exit properly
 ```
 Sometimes the inside of the feeder is dark, so the user wants to turn on the light for better photography. In this piece of code, two LEDs are controled by raspberry Pi to make a light pattern.
 
+### Socket.io
+socket.io is an in time system listening requirement all the time that help me to create the notification system. Socket requires server side of code and client side of code to receive data and send data immediately. 
+`$ bower install` to install the socket plug-in 
 
+#### Server sends a photo to client and client receives the photo
+server part
+```javascript
+motion.watch(function(err, value) {
+  if (err) exit();
 
+  console.log('Intruder detected..');
+  if (value == 1 && !isRec) {
+ 
+    console.log('capturing video.. ');
+ 
+    isRec = true;
+ 
+    var exec = require('child_process').exec;
+    var video_path = './video' + Date.now() + '.jpg';
+ 
+    var cmd = 'raspistill -o ' + video_path ;
+
+    exec(cmd, function(error, stdout, stderr) {
+      // output is in stdout
+      console.log('Video Saved @ : ', video_path);
+      //require('./mailer').sendEmail(video_path);
+
+    io.on('connection', function(socket){
+      fs.readFile( video_path, function(err, buf){
+        // it's possible to embed binary data
+        // within arbitrarily-complex objects
+        socket.emit('image', { image: true, buffer: buf.toString('base64') });
+        console.log('image file is initialized');
+      });
+```
+client part
+```javascript
+      socket.on("image", function(info) {
+        if (info.image) {
+          var img = new Image();
+          img.src = 'data:image/jpeg;base64,' + info.buffer;
+          ctx.drawImage(img, 0, 0,200,100);
+        }
+      });
+```
+#### client send the request(turn on buzzer) back to server
+client part
+```javascript
+      $('form').submit(function(){
+        socket.emit('chat message', $('#m').val());
+        $('#m').val('');
+        return false;
+      });
+```
+Server part
+```javascript
+      socket.on('chat message', function(msg){
+        buzzer.writeSync( 1 );
+        console.log("turn on buzzer light");
+        setTimeout(function(){ buzzer.writeSync( 0 ); }, 500);
+      });
+```
+## Demo
+![demo](https://raw.githubusercontent.com/JesusGuerrero/hana-iot/master/midterm/images/demo.png?token=APcrcpf3IiZPGlkUA7RMo5VM1vsBEzFNks5YFCd1wA%3D%3D)
 
