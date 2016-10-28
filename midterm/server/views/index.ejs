@@ -34,6 +34,7 @@
         if (info.image) {
           var img = new Image();
           img.src = 'data:image/jpeg;base64,' + info.buffer;
+          console.log(img.src);
           ctx.drawImage(img, 0, 0,200,100);
         }
       });

@@ -8,19 +8,19 @@ var app = angular.module('feeder', [ ]);
   app.controller('CamaraController', function($scope){
 
     socket.on('event:photo', function( photoTime ) {
-      console.log(photoTime);
-      $scope.notes = alarm;
-        alarm.date = photoTime;
-        alarm.image = photoTime + "jpg";
+      console.log("reseve data "+ photoTime);
+      $scope.captureNote = "Detacted a motion";
+      $scope.captureTime = photoTime;
+      $scope.captureImage = photoTime + ".jpg";
     });
 
             $scope.buzzer = function(){
                 console.log("Buzzer");
-                io.sockets.emit('event:buzzer', true);
+                sockets.emit('event:buzzer', true);
             };
             $scope.video = function(){
                 console.log("video");
-                io.sockets.emit('event:video', true);
+                sockets.emit('event:video', true);
             };
             $scope.identify = function(){
                 console.log("identify");

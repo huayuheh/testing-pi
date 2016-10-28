@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body ng-controller="CamaraController">
-    <h1>{{notes.text}}</h1>
-    <p>Time:{{notes.date}}</p>
-    <img alt="" ng-src="{{notes.image}}">
+    <h1>{{app.captureNote}}</h1>
+    <p>Time:{{app.captureTime}}</p>
+    <img alt="" ng-src="{{app.captureImage}}">
 
     <p>notification</p>
     <button ng-click="buzzer()">Buzzing</button>
