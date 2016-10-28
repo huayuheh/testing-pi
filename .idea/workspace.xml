@@ -26,8 +26,8 @@
       <file leaf-file-name="motion.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/midterm1/server/config/motion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="589">
+              <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -345,7 +345,7 @@
       <updated>1477622052718</updated>
       <workItem from="1477622054872" duration="140000" />
       <workItem from="1477622244050" duration="28000" />
-      <workItem from="1477632719974" duration="2359000" />
+      <workItem from="1477632719974" duration="2524000" />
     </task>
     <task id="LOCAL-00001" summary="click button to start a buzzer">
       <created>1477634542808</created>
@@ -382,11 +382,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477635898834</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Socket io can't recieve signal from website">
+      <created>1477636012504</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1477636012504</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2527000" />
+    <option name="totallyTimeSpent" value="2692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="900" y="23" width="1296" height="1417" extended-state="0" />
@@ -471,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/midterm1/server/config/motion.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="589">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
           <folding />
         </state>
       </provider>

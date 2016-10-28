@@ -20,20 +20,20 @@ motion.watch( function(err, val){
 
   }
 });
-
-sockets.on('event:buzzer', function () {
-  buzzer.writeSync(1);
-  console.log("turn on buzzer ");
-  setTimeout(function () {
+ if( io ) {
+   io.sockets.on('event:buzzer', function () {
+     buzzer.writeSync(1);
+     console.log("turn on buzzer ");
+     setTimeout(function () {
        buzzer.writeSync(0);
      }, 3000);
    });
 
-sockets.on('event:video', function () {
+   io.sockets.on('event:video', function () {
      console.log("record a video");
 
    });
-
+ }
 process.on('SIGINT', function(){
   motion.unexport();
   buzzer.unexport();
