@@ -3,37 +3,23 @@
   motion = new gpio(21, 'in', 'both'),
   buzzer = new gpio(16, 'out'),
   io = null;
-
-var camera = new RaspiCam({mode: 'photo', output: './server/public/img/' + Date.now()+'.jpg'});
+  var photoTime = Date.now();
+var camera = new RaspiCam({mode: 'photo', output: './server/public/img/' + photoTime +'.jpg'});
 
 motion.watch( function(err, val){
   if( err ) { console.log('Motion in 21 Error'); return; }
   if (val){
-    console.log('motion sensor detact something');
+    console.log('motion sensor detact something');	
     camera.start();
-    var photoTime = Date.now();
-    camera.set('output', '/server/public/img/' + photoTime + '.jpg');
+    camera.set('output', './server/public/img/' + photoTime + '.jpg');
+	
     if( io ) {
       io.sockets.emit('event:photo', photoTime);
-	console.log('send data to server');
+	console.log('send data to server' + photoTime );
     }
-
   }
 });
- if( io ) {
-   io.sockets.on('event:buzzer', function () {
-     buzzer.writeSync(1);
-     console.log("turn on buzzer ");
-     setTimeout(function () {
-       buzzer.writeSync(0);
-     }, 3000);
-   });
 
-   io.sockets.on('event:video', function () {
-     console.log("record a video");
-
-   });
- }
 process.on('SIGINT', function(){
   motion.unexport();
   buzzer.unexport();

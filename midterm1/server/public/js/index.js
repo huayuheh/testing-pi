@@ -14,7 +14,7 @@ var app = angular.module('feeder', [ ]);
       $scope.$apply( function() {
           $scope.captureNote = "Detacted a motion";
           $scope.captureTime = photoTime;
-          $scope.captureImage = photoTime + ".jpg";
+          $scope.captureImage ="/assets/img/" + photoTime + ".jpg";
       });
     });
 
