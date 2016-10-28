@@ -11,11 +11,20 @@ var app = angular.module('feeder', [ ]);
       $scope.captureImage = "00.jpg";
     socket.on('event:photo', function( photoTime ) {
       console.log("receive data "+ photoTime);
+setTimeout(function(){
       $scope.$apply( function() {
           $scope.captureNote = "Detacted a motion";
           $scope.captureTime = photoTime;
           $scope.captureImage ="/assets/img/" + photoTime + ".jpg";
       });
+
+
+
+
+
+},5000);
+
+
     });
 
             $scope.buzzer = function(){
