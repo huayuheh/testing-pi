@@ -10,10 +10,12 @@ var app = angular.module('feeder', [ ]);
       $scope.captureTime = 0;
       $scope.captureImage = "00.jpg";
     socket.on('event:photo', function( photoTime ) {
-      console.log("reseve data "+ photoTime);
-      $scope.captureNote = "Detacted a motion";
-      $scope.captureTime = photoTime;
-      $scope.captureImage = photoTime + ".jpg";
+      console.log("receive data "+ photoTime);
+      $scope.$apply( function() {
+          $scope.captureNote = "Detacted a motion";
+          $scope.captureTime = photoTime;
+          $scope.captureImage = photoTime + ".jpg";
+      });
     });
 
             $scope.buzzer = function(){
