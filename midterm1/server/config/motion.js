@@ -4,7 +4,7 @@
   buzzer = new gpio(16, 'out'),
   io = null;
 
-var camera = new RaspiCam({mode: 'photo', output: Date.now()+'.jpg'});
+var camera = new RaspiCam({mode: 'photo', output: './server/public/img/' + Date.now()+'.jpg'});
 
 motion.watch( function(err, val){
   if( err ) { console.log('Motion in 21 Error'); return; }
