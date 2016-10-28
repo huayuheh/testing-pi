@@ -9,14 +9,25 @@ var camera = new RaspiCam({mode: 'photo', output: './server/public/img/' + photo
 motion.watch( function(err, val){
   if( err ) { console.log('Motion in 21 Error'); return; }
   if (val){
-    console.log('motion sensor detact something');	
+    console.log('motion sensor detact something');
+    
+    camera.set('output', './server/public/img/' + photoTime + '.jpg');	
     camera.start();
-    camera.set('output', './server/public/img/' + photoTime + '.jpg');
+    camera.on("read",function(){
+    console.log("reading");
+   	 if( io ) {
+  	    io.sockets.emit('event:photo', photoTime);
+		console.log('send data to server' + photoTime );
+
+ 	   }
+    });
+	camera.on("exit", function(){
+console.log("exited");
+photoTime = Date.now();
+	});
+    
 	
-    if( io ) {
-      io.sockets.emit('event:photo', photoTime);
-	console.log('send data to server' + photoTime );
-    }
+
   }
 });
 
