@@ -12,7 +12,7 @@ motion.watch( function(err, val){
     console.log('motion sensor detact something');
     camera.start();
     var photoTime = Date.now();
-    camera.set('output', photoTime + '.jpg');
+    camera.set('output', '/server/public/img/' + photoTime + '.jpg');
     if( io ) {
       io.sockets.emit('event:photo', photoTime);
 	console.log('send data to server');
