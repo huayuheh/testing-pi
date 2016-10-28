@@ -6,7 +6,9 @@ socket.on('event:hello', function(){
 
 var app = angular.module('feeder', [ ]);
   app.controller('CamaraController', function($scope){
-
+      $scope.captureNote = "No motion";
+      $scope.captureTime =  ;
+      $scope.captureImage = "00.jpg";
     socket.on('event:photo', function( photoTime ) {
       console.log("reseve data "+ photoTime);
       $scope.captureNote = "Detacted a motion";
@@ -16,11 +18,11 @@ var app = angular.module('feeder', [ ]);
 
             $scope.buzzer = function(){
                 console.log("Buzzer");
-                sockets.emit('event:buzzer', true);
+                socket.emit('event:buzzer', true);
             };
             $scope.video = function(){
                 console.log("video");
-                sockets.emit('event:video', true);
+                socket.emit('event:video', true);
             };
             $scope.identify = function(){
                 console.log("identify");
