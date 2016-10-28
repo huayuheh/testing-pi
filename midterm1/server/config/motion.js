@@ -21,7 +21,7 @@ motion.watch( function(err, val){
   }
 });
 
-socket.on('event:buzzer', function () {
+sockets.on('event:buzzer', function () {
   buzzer.writeSync(1);
   console.log("turn on buzzer ");
   setTimeout(function () {
@@ -29,7 +29,7 @@ socket.on('event:buzzer', function () {
      }, 3000);
    });
 
-socket.on('event:video', function () {
+sockets.on('event:video', function () {
      console.log("record a video");
 
    });

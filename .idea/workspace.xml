@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="Socket io can't recieve signal from website">
+    <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/midterm1/server/config/motion.js" afterPath="$PROJECT_DIR$/midterm1/server/config/motion.js" />
     </list>
@@ -26,8 +26,18 @@
       <file leaf-file-name="motion.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/midterm1/server/config/motion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="494">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sockets.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/midterm1/server/config/sockets.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -335,7 +345,7 @@
       <updated>1477622052718</updated>
       <workItem from="1477622054872" duration="140000" />
       <workItem from="1477622244050" duration="28000" />
-      <workItem from="1477632719974" duration="2243000" />
+      <workItem from="1477632719974" duration="2359000" />
     </task>
     <task id="LOCAL-00001" summary="click button to start a buzzer">
       <created>1477634542808</created>
@@ -365,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477635522960</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Socket io can't recieve signal from website">
+      <created>1477635898834</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1477635898834</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2411000" />
+    <option name="totallyTimeSpent" value="2527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="900" y="23" width="1296" height="1417" extended-state="0" />
@@ -444,10 +461,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/midterm1/server/config/sockets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/midterm1/server/config/motion.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="494">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
           <folding />
         </state>
       </provider>
