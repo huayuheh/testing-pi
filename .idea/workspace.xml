@@ -1,116 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/function.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/groupBy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/identity.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/intersection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/invert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/invertBy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/invoke.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/isArrayBuffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/isArrayLikeObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/isBoolean.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/isBuffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/isElement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/isEmpty.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/isInteger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/isNaN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/isNil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/isObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/isPlainObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/isSafeInteger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/isSymbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/isTypedArray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/isWeakSet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/iteratee.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/kebabCase.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/keysIn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/last.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/lodash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/lodash.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/mapKeys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/mapValues.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/matchesProperty.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/max.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/mean.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/methodOf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/minBy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/multiply.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/noop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/now.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/nth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/number.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/omitBy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/overArgs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/overEvery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/pad.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/padEnd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/parseInt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/partialRight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/partition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/pickBy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/property.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/pullAll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/pullAt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/rearg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/reduce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/reduceRight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/reject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/result.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/sample.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/sampleSize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/snakeCase.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/sortedIndex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/sortedLastIndex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/sortedLastIndexBy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/sortedLastIndexOf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/sortedUniq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/startsWith.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/stubTrue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/subtract.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/sum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/take.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/takeRight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/tap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/toArray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/toIterator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/toJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/toLower.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/toNumber.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/toPairsIn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/toPlainObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/toSafeInteger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/toString.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/toUpper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/trimEnd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/trimStart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/truncate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/unescape.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/uniqBy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/uniqueId.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/unset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/unzipWith.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/update.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/updateWith.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/upperCase.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/upperFirst.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/value.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/without.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/words.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/wrapperAt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/wrapperLodash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/xor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/xorBy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/xorWith.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/zipObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/testing_sensor/node_modules/raspicam/node_modules/lodash/zipObjectDeep.js" afterPath="" />
+    <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="click button to start a buzzer">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/video1477110919718.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/video1477627458484.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/video1477627467074.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/video1477627489502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/video1477627884447.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/video1477627947074.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/1477630615948.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/1477631918050.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/midterm1/server/config/motion.js" afterPath="$PROJECT_DIR$/midterm1/server/config/motion.js" />
     </list>
     <ignored path="hana-iot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,8 +29,29 @@
   <component name="FavoritesManager">
     <favorites_list name="hana-iot" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="motion.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/midterm1/server/config/motion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/midterm1/server/config/motion.js" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -139,7 +61,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1214" />
-    <option name="y" value="334" />
+    <option name="y" value="23" />
     <option name="width" value="1296" />
     <option name="height" value="1417" />
   </component>
@@ -169,6 +91,10 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+        <subPane subId="Tests" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -177,17 +103,106 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hana-iot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hana-iot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hana-iot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hana-iot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="midterm1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hana-iot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hana-iot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="midterm1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hana-iot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hana-iot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="midterm1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hana-iot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hana-iot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="midterm1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-        <subPane subId="Tests" />
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -201,22 +216,24 @@
       <updated>1477622052718</updated>
       <workItem from="1477622054872" duration="140000" />
       <workItem from="1477622244050" duration="28000" />
+      <workItem from="1477632719974" duration="906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168000" />
+    <option name="totallyTimeSpent" value="1074000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1214" y="334" width="1296" height="1417" extended-state="0" />
+    <frame x="1214" y="23" width="1296" height="1417" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25781846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532418" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2532418" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -258,8 +275,22 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="click button to start a buzzer" />
+    <option name="LAST_COMMIT_MESSAGE" value="click button to start a buzzer" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/midterm1/server/config/motion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
