@@ -20,18 +20,20 @@ motion.watch( function(err, val){
 
   }
 });
+ if( io ) {
+   io.socket.on('event:buzzer', function () {
+     buzzer.writeSync(1);
+     console.log("turn on buzzer ");
+     setTimeout(function () {
+       buzzer.writeSync(0);
+     }, 3000);
+   });
 
-io.socket.on('event:buzzer', function(){
- buzzer.writeSync( 1 );
- console.log("turn on buzzer ");
- setTimeout(function(){ buzzer.writeSync( 0 ); }, 3000);
-});
+   io.socket.on('event:video', function () {
+     console.log("record a video");
 
-io.socket.on('event:video', function(){
- console.log("record a video");
-
-});
-
+   });
+ }
 
 process.on('SIGINT', function(){
   motion.unexport();
