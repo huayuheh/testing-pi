@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="click button to start a buzzer">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/video1477110919718.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/video1477627458484.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/video1477627467074.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/video1477627489502.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/video1477627884447.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm/video1477627947074.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/1477630615948.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/1477631918050.jpg" afterPath="" />
+    <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/midterm1/server/config/motion.js" afterPath="$PROJECT_DIR$/midterm1/server/config/motion.js" />
     </list>
     <ignored path="hana-iot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -216,12 +207,20 @@
       <updated>1477622052718</updated>
       <workItem from="1477622054872" duration="140000" />
       <workItem from="1477622244050" duration="28000" />
-      <workItem from="1477632719974" duration="906000" />
+      <workItem from="1477632719974" duration="991000" />
     </task>
+    <task id="LOCAL-00001" summary="click button to start a buzzer">
+      <created>1477634542808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1477634542808</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1074000" />
+    <option name="totallyTimeSpent" value="1159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1214" y="23" width="1296" height="1417" extended-state="0" />
