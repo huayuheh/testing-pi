@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="feeder">
+<head>
+    <meta charset="UTF-8">
+    <title>Motion Client</title>
+    <link href="/assets/css/index.css" type="text/css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body ng-controller="CamaraController">
+    <h1>{{notes.text}}</h1>
+    <p>Time:{{notes.date}}</p>
+    <img alt="" ng-src="{{notes.image}}">
+
+    <p>notification</p>
+    <button ng-click="buzzer()">Buzzing</button>
+    <button ng-click="video()">Take video</button>
+    <button ng-click="identify()">Identification</button>
+
+<script src="/assets/socket.io-client/socket.io.js"></script>
+<script src="/assets/angular/angular.min.js"></script>
+<script src="/assets/js/index.js"></script>
+</body>
+</html>
