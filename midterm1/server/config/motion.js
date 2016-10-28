@@ -21,6 +21,7 @@ motion.watch( function(err, val){
   }
 });
  if( io ) {
+
    io.socket.on('event:buzzer', function () {
      buzzer.writeSync(1);
      console.log("turn on buzzer ");
