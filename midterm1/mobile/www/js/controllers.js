@@ -1,6 +1,7 @@
 angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope) {
+  var showTime = new Date();
   $scope.captureNote = "No motion";
   $scope.captureTime = showTime;
   $scope.captureImage = "/assets/img/logo-color-s.jpg";
