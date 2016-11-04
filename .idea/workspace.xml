@@ -2,123 +2,124 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/img/adam.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/img/ben.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/img/ionic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/img/max.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/img/mike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/img/perry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/hooks/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/hooks/after_prepare/010_add_platform_class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/scss/ionic.app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/js/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/css/ionic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/css/ionic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/fonts/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular-ui/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular-resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/ionic-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/ionic-angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/ionic.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/ionic.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/ionic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/ionic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_action-sheet.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_backdrop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_button-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_checkbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_items.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_loading.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_platform.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_popup.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_radio.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_range.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_refresher.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_slide-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_slides.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_spinner.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_tabs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_toggle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_util.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/ionic.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/ionicons/_ionicons-font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/ionicons/ionicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/version.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/lib/manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/lib/on.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/lib/socket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/lib/url.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/socket.io.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/support/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/test/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/test/connection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/test/socket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/test/support/env.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/test/support/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/test/url.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/zuul.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/service-worker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/templates/chat-detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/templates/tab-account.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/templates/tab-chats.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/templates/tab-dash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/mobile/mobile/www/templates/tabs.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/hooks/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/hooks/after_prepare/010_add_platform_class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/scss/ionic.app.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/img/adam.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/img/ben.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/img/ionic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/img/max.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/img/mike.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/img/perry.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/js/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/js/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/css/ionic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/css/ionic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/fonts/ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/fonts/ionicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/fonts/ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/fonts/ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular-ui/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/ionic-angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/ionic-angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/ionic.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/ionic.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/ionic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/js/ionic.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_action-sheet.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_backdrop.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_button-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_checkbox.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_form.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_items.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_loading.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_menu.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_platform.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_popover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_popup.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_radio.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_range.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_refresher.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_scaffolding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_select.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_slide-box.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_slides.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_spinner.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_tabs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_toggle.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_transitions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_util.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/ionic.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/ionicons/_ionicons-font.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/scss/ionicons/ionicons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/ionic/version.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/.eslintrc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/lib/manager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/lib/on.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/lib/socket.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/lib/url.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/socket.io.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/support/webpack.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/test/.eslintrc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/test/connection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/test/socket.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/test/support/env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/test/support/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/test/url.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/lib/socket.io-client/zuul.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/service-worker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/templates/chat-detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/templates/tab-account.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/templates/tab-chats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/templates/tab-dash.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/mobile/mobile/www/templates/tabs.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/midterm1/mobile/www/index.html" afterPath="$PROJECT_DIR$/midterm1/mobile/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/midterm1/mobile/www/js/controllers.js" afterPath="$PROJECT_DIR$/midterm1/mobile/www/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/midterm1/server/public/js/index.js" afterPath="$PROJECT_DIR$/midterm1/server/public/js/index.js" />
     </list>
@@ -143,28 +144,18 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/midterm1/mobile/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="90">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/midterm1/mobile/mobile/www/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/midterm1/server/public/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+            <state relative-caret-position="495">
+              <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -196,6 +187,7 @@
     <handled-path value="$PROJECT_DIR$/HW5/node_modules" />
     <handled-path value="$PROJECT_DIR$/midterm/node_modules" />
     <handled-path value="$PROJECT_DIR$/midterm/testing_sensor/node_modules" />
+    <handled-path value="$PROJECT_DIR$/midterm1/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="457" />
@@ -279,7 +271,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,11 +289,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hana-iot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hana-iot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="midterm1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -394,7 +412,7 @@
       <workItem from="1477632719974" duration="2524000" />
       <workItem from="1477682196947" duration="1523000" />
       <workItem from="1478285860206" duration="1379000" />
-      <workItem from="1478287510365" duration="9000" />
+      <workItem from="1478287510365" duration="362000" />
     </task>
     <task id="LOCAL-00001" summary="click button to start a buzzer">
       <created>1477634542808</created>
@@ -452,17 +470,24 @@
       <option name="project" value="LOCAL" />
       <updated>1477683311874</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change ip address to school's">
+      <created>1478287541893</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1478287541893</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5603000" />
+    <option name="totallyTimeSpent" value="5956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="457" y="23" width="983" height="873" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26299375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26299375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25736237" sideWeight="0.5114345" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25736237" sideWeight="0.48856547" order="7" side_tool="false" content_ui="tabs" />
@@ -649,18 +674,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/midterm1/server/public/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/midterm1/mobile/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -669,6 +686,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/midterm1/server/public/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
           <folding />
         </state>
       </provider>
