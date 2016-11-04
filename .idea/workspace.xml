@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/midterm1/mobile/www/index.html" afterPath="$PROJECT_DIR$/midterm1/mobile/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/midterm1/mobile/www/js/controllers.js" afterPath="$PROJECT_DIR$/midterm1/mobile/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/midterm1/mobile/www/templates/tabs.html" afterPath="$PROJECT_DIR$/midterm1/mobile/www/templates/tabs.html" />
     </list>
     <ignored path="hana-iot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -357,7 +354,7 @@
       <workItem from="1477632719974" duration="2524000" />
       <workItem from="1477682196947" duration="1523000" />
       <workItem from="1478285860206" duration="1379000" />
-      <workItem from="1478287510365" duration="2539000" />
+      <workItem from="1478287510365" duration="2611000" />
     </task>
     <task id="LOCAL-00001" summary="click button to start a buzzer">
       <created>1477634542808</created>
@@ -450,11 +447,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478288603324</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update mobile view side">
+      <created>1478290176117</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1478290176117</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8133000" />
+    <option name="totallyTimeSpent" value="8205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="391" y="23" width="1049" height="873" extended-state="0" />
