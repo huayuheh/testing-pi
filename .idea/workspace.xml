@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="change file">
+    <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hana-iot.iws" />
@@ -293,7 +293,7 @@
       <workItem from="1477632719974" duration="2524000" />
       <workItem from="1477682196947" duration="1523000" />
       <workItem from="1478285860206" duration="1379000" />
-      <workItem from="1478287510365" duration="432000" />
+      <workItem from="1478287510365" duration="439000" />
     </task>
     <task id="LOCAL-00001" summary="click button to start a buzzer">
       <created>1477634542808</created>
@@ -365,11 +365,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478287917136</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="change file">
+      <created>1478287952773</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1478287952773</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6026000" />
+    <option name="totallyTimeSpent" value="6033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="457" y="23" width="983" height="873" extended-state="0" />
