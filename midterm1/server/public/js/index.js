@@ -1,5 +1,5 @@
 var socket = io();
-
+var showTime = new Date();
 socket.on('event:hello', function(){
   console.log('Hello from server through socket');
 });
@@ -7,26 +7,19 @@ socket.on('event:hello', function(){
 var app = angular.module('feeder', [ ]);
   app.controller('CamaraController', function($scope){
       $scope.captureNote = "No motion";
-      $scope.captureTime = 0;
-      $scope.captureImage = "00.jpg";
+      $scope.captureTime = showTime;
+      $scope.captureImage = "/assets/img/logo-color-s.jpg";
     socket.on('event:photo', function( photoTime ) {
       console.log("receive data "+ photoTime);
 setTimeout(function(){
       $scope.$apply( function() {
           $scope.captureNote = "Detacted a motion";
-          $scope.captureTime = photoTime;
+	  showTime = new Date(photoTime);
+          $scope.captureTime = showTime;
           $scope.captureImage ="/assets/img/" + photoTime + ".jpg";
       });
-
-
-
-
-
-},5000);
-
-
+},500);
     });
-
             $scope.buzzer = function(){
                 console.log("Buzzer");
                 socket.emit('event:buzzer', true);
