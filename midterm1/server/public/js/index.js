@@ -9,37 +9,28 @@ var app = angular.module('feeder', [ ]);
       $scope.captureNote = "No motion";
       $scope.captureTime = 0;
       $scope.captureImage = "00.jpg";
-    socket.on('event:photo', function( photoTime ) {
-      console.log("receive data "+ photoTime);
-setTimeout(function(){
-      $scope.$apply( function() {
-          $scope.captureNote = "Detacted a motion";
-          $scope.captureTime = photoTime;
-          $scope.captureImage ="/assets/img/" + photoTime + ".jpg";
+      socket.on('event:photo', function( photoTime ) {
+          console.log("receive data "+ photoTime);
+          setTimeout(function(){
+                $scope.$apply( function() {
+                $scope.captureNote = "Detacted a motion";
+                $scope.captureTime = photoTime;
+                $scope.captureImage ="/assets/img/" + photoTime + ".jpg";
+                });
+          },1000);
       });
 
-
-
-
-
-},5000);
-
-
-    });
-
-            $scope.buzzer = function(){
-                console.log("Buzzer");
-                socket.emit('event:buzzer', true);
-            };
-            $scope.video = function(){
-                console.log("video");
-                socket.emit('event:video', true);
-            };
-            $scope.identify = function(){
-                console.log("identify");
-            };
-
-
-    });
+      $scope.buzzer = function(){
+          console.log("Buzzer");
+          socket.emit('event:buzzer', true);
+      };
+      $scope.video = function(){
+          console.log("video");
+          socket.emit('event:video', true);
+      };
+      $scope.identify = function(){
+          console.log("identify");
+      };
+  });
 
 
