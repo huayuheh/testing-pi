@@ -32,7 +32,7 @@
 
     <!-- your app's js -->
     <script type="text/javascript">
-      var socket = io('http://localhost:8080');
+      var socket = io('http://127.0.1.1:8080');
 
       socket.on('event:hello', function(){
         console.log('Hello from server through socket');
