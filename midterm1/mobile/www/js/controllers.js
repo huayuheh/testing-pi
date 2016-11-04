@@ -1,12 +1,31 @@
 angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope) {
-  socket.on('event:motion', function( val ) {
-    console.log('Motion in 21 is ' +(val ? 'ACTIVE' : 'INACTIVE'));
-    $scope.$apply( function() {
-      $scope.motion = val ? true : false;
-    });
+  $scope.captureNote = "No motion";
+  $scope.captureTime = showTime;
+  $scope.captureImage = "/assets/img/logo-color-s.jpg";
+  socket.on('event:photo', function( photoTime ) {
+    console.log("receive data "+ photoTime);
+    setTimeout(function(){
+      $scope.$apply( function() {
+        $scope.captureNote = "Detacted a motion";
+        showTime = new Date(photoTime);
+        $scope.captureTime = showTime;
+        $scope.captureImage ="/assets/img/" + photoTime + ".jpg";
+      });
+    },500);
   });
+  $scope.buzzer = function(){
+    console.log("Buzzer");
+    socket.emit('event:buzzer', true);
+  };
+  $scope.video = function(){
+    console.log("video");
+    socket.emit('event:video', true);
+  };
+  $scope.identify = function(){
+    console.log("identify");
+  };
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {
