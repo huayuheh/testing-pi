@@ -1,7 +1,7 @@
 'use strict';
 var gpio = require('onoff').Gpio,
   RaspiCam = require('raspicam'),
-    led1 = new Gpio(27, 'out'),
+    led1 = new gpio(27, 'out'),
   buzzer = new gpio(16, 'out');
 
 var ledState = 0;
