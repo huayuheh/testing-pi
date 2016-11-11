@@ -2,9 +2,10 @@ angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope) {
   var showTime = new Date();
+  var severIPAddress = "http://192.168.2.2:8080";
   $scope.captureNote = "No motion";
   $scope.captureTime = showTime;
-  $scope.captureImage = "/assets/img/logo-color-s.jpg";
+  $scope.captureImage = severIPAddress + "/assets/img/logo-color-s.jpg";
   socket.on('event:photo', function( photoTime ) {
     console.log("receive data "+ photoTime);
     setTimeout(function(){
@@ -12,7 +13,7 @@ angular.module('starter.controllers', [])
         $scope.captureNote = "Detacted a motion";
         showTime = new Date(photoTime);
         $scope.captureTime = showTime;
-        $scope.captureImage ="/assets/img/" + photoTime + ".jpg";
+        $scope.captureImage = severIPAddress + "/assets/img/" + photoTime + ".jpg";
       });
     },500);
   });
