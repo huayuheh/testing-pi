@@ -57,4 +57,7 @@ angular.module('starter.controllers', [])
   $scope.settings = {
     enableFriends: true
   };
+  // if (settings.enableFriends){
+  //   console.log("true");
+  // }
 });
