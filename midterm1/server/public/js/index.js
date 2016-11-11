@@ -31,6 +31,9 @@ var app = angular.module('feeder', [ ]);
       $scope.identify = function(){
           console.log("identify");
       };
+      $scope.lightController = function(){
+          console.log("Turn on/off");
+      };
   });
 
 

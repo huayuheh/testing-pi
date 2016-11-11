@@ -1,9 +1,10 @@
 'use strict';
 var gpio = require('onoff').Gpio,
   RaspiCam = require('raspicam'),
+    led1 = new Gpio(27, 'out'),
   buzzer = new gpio(16, 'out');
 
-
+var ledState = 0;
 var io = null;
 
 function main( server ){
@@ -25,6 +26,11 @@ function main( server ){
 
    socket.on('event:video', function () {
      console.log("record a video");
+   });
+   socket.on('event:lightController', function () {
+
+       ledState = ledState ? 0 : 1;
+       led1.writeSync(ledState);
    });
 
 
