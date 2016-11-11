@@ -9,6 +9,7 @@ var app = angular.module('feeder', [ ]);
       $scope.captureNote = "No motion";
       $scope.captureTime = showTime;
       $scope.captureImage = "/assets/img/logo-color-s.jpg";
+<<<<<<< HEAD
     socket.on('event:photo', function( photoTime ) {
       console.log("receive data "+ photoTime);
 setTimeout(function(){
@@ -34,5 +35,33 @@ setTimeout(function(){
 
 
     });
+=======
+      socket.on('event:photo', function( photoTime ) {
+          console.log("receive data "+ photoTime);
+          setTimeout(function(){
+              $scope.$apply( function() {
+                $scope.captureNote = "Detacted a motion";
+                showTime = new Date(photoTime);
+                $scope.captureTime = showTime;
+                $scope.captureImage ="/assets/img/" + photoTime + ".jpg";
+              });
+          },500);
+      });
+      $scope.buzzer = function(){
+          console.log("Buzzer");
+          socket.emit('event:buzzer', true);
+      };
+      $scope.video = function(){
+          console.log("video");
+          socket.emit('event:video', true);
+      };
+      $scope.identify = function(){
+          console.log("identify");
+      };
+      $scope.lightController = function(){
+          console.log("Turn on/off");
+      };
+  });
+>>>>>>> a3caff2bdb25990061349dfeab5458c3f2cea3d8
 
 
