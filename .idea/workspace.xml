@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="">
+    <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="fix marge problem">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/midterm1/mobile/www/js/controllers.js" afterPath="$PROJECT_DIR$/midterm1/mobile/www/js/controllers.js" />
     </list>
     <ignored path="hana-iot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -331,7 +330,7 @@
       <workItem from="1478291668885" duration="113000" />
       <workItem from="1478292794385" duration="2174000" />
       <workItem from="1478895331155" duration="1071000" />
-      <workItem from="1478902507587" duration="700000" />
+      <workItem from="1478902507587" duration="771000" />
     </task>
     <task id="LOCAL-00001" summary="click button to start a buzzer">
       <created>1477634542808</created>
@@ -480,17 +479,24 @@
       <option name="project" value="LOCAL" />
       <updated>1478896324223</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fix marge problem">
+      <created>1478903238268</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1478903238268</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13448000" />
+    <option name="totallyTimeSpent" value="13519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="438" y="145" width="924" height="782" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24473976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24473976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37246376" sideWeight="0.5215947" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25736237" sideWeight="0.48832685" order="7" side_tool="false" content_ui="tabs" />
@@ -552,7 +558,8 @@
     <MESSAGE value="change ip address" />
     <MESSAGE value="Add turn on/off light button" />
     <MESSAGE value="change typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="change typo" />
+    <MESSAGE value="fix marge problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix marge problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
