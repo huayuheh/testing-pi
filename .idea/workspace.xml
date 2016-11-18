@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/midterm1/mobile/www/index.html" afterPath="$PROJECT_DIR$/midterm1/mobile/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/midterm1/mobile/www/js/controllers.js" afterPath="$PROJECT_DIR$/midterm1/mobile/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/midterm1/mobile/www/templates/tab-account.html" afterPath="$PROJECT_DIR$/midterm1/mobile/www/templates/tab-account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/midterm1/mobile/www/templates/tabs.html" afterPath="$PROJECT_DIR$/midterm1/mobile/www/templates/tabs.html" />
     </list>
     <ignored path="hana-iot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,7 +89,7 @@
     <handled-path value="$PROJECT_DIR$/midterm/testing_sensor/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="475" />
+    <option name="x" value="347" />
     <option name="y" value="23" />
     <option name="width" value="1024" />
     <option name="height" value="873" />
@@ -405,7 +401,7 @@
       <workItem from="1478292794385" duration="2174000" />
       <workItem from="1478895331155" duration="1071000" />
       <workItem from="1478902507587" duration="2331000" />
-      <workItem from="1479427498199" duration="7374000" />
+      <workItem from="1479427498199" duration="7401000" />
     </task>
     <task id="LOCAL-00001" summary="click button to start a buzzer">
       <created>1477634542808</created>
@@ -582,14 +578,21 @@
       <option name="project" value="LOCAL" />
       <updated>1479456842211</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="change some text">
+      <created>1479458039100</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1479458039100</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22453000" />
+    <option name="totallyTimeSpent" value="22480000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="475" y="23" width="1024" height="873" extended-state="0" />
+    <frame x="347" y="23" width="1024" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21236292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -657,7 +660,8 @@
     <MESSAGE value="fix marge problem" />
     <MESSAGE value="light" />
     <MESSAGE value="add button to control the light" />
-    <option name="LAST_COMMIT_MESSAGE" value="add button to control the light" />
+    <MESSAGE value="change some text" />
+    <option name="LAST_COMMIT_MESSAGE" value="change some text" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
