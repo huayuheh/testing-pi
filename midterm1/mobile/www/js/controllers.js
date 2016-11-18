@@ -3,7 +3,7 @@ angular.module('starter.controllers', [])
 .controller('DashCtrl', function($scope) {
   var showTime = new Date();
 
-  var severIPAddress = "http://192.168.2.2:8080";
+  var severIPAddress = "http://10.0.1.35:8080";
   $scope.captureNote = "No motion";
   $scope.captureTime = showTime;
   $scope.captureImage = severIPAddress + "/assets/img/logo-color-s.jpg";
