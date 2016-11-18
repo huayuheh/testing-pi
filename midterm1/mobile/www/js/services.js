@@ -24,11 +24,6 @@ angular.module('starter.services', [])
     name: 'Perry Governor',
     lastText: 'Look at my mukluks!',
     face: 'img/perry.png'
-  }, {
-    id: 4,
-    name: 'Mike Harrington',
-    lastText: 'This is wicked good ice cream.',
-    face: 'img/mike.png'
   }];
 
   return {
