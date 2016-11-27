@@ -3,7 +3,7 @@ angular.module('starter.controllers', [])
 .controller('DashCtrl', function($scope) {
   var showTime = new Date();
 
-  var severIPAddress = "http://192.168.2.2:8080";
+  var severIPAddress = "http://10.0.1.17:8080";
   $scope.captureNote = "No motion";
   $scope.captureTime = showTime;
   $scope.captureImage = severIPAddress + "/assets/img/logo-color-s.jpg";
@@ -30,7 +30,11 @@ angular.module('starter.controllers', [])
     socket.emit('event:video', true);
   };
   $scope.identify = function(){
-    console.log("identify");
+
+    localStorage.setItem("time", showTime);
+    console.log(localStorage.getItem("time"));
+    document.getElementById("savedtime").innerHTML = localStorage.getItem("lastname");
+
   };
 })
 
@@ -42,7 +46,9 @@ angular.module('starter.controllers', [])
   //
   //$scope.$on('$ionicView.enter', function(e) {
   //});
-
+  //console.log(chats);
+  //$scope.chats.push(",{}");
+  console.log(localStorage.getItem("time"));
   $scope.chats = Chats.all();
   $scope.remove = function(chat) {
     Chats.remove(chat);
@@ -55,6 +61,12 @@ angular.module('starter.controllers', [])
 
 .controller('AccountCtrl', function($scope) {
   $scope.settings = {
-    enableFriends: true
+    lightcontroller: false
   };
+  $scope.turnLight = function ( ) {
+
+      socket.emit('event:light', true);
+
+  }
 });
+
