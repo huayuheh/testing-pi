@@ -7,7 +7,7 @@ module.exports = function( env ) {
     // Define default parameters and allow extending
     var environment =  {
         port: 8080,
-        url: 'localhost'
+        url: '192.168.2.2'
     };
 
     environment.rootPath = rootPath;
