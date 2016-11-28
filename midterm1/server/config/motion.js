@@ -25,9 +25,6 @@ motion.watch( function(err, val){
 console.log("exited");
 photoTime = Date.now();
 	});
-    
-	
-
   }
 });
 
