@@ -28,15 +28,15 @@ function main( server ){
     socket.on('event:video', function () {
         console.log("record a video");
         var photoTime = Date.now();
-        var camera = new RaspiCam({mode: 'photo', output: './server/public/img/' + photoTime +'.jpg'});
+        var camera = new RaspiCam({mode: 'photo', output: './server/public/img/photo/' + photoTime +'.jpg'});
 
-        camera.set('output', './server/public/img/' + photoTime + '.jpg');
+        camera.set('output', './server/public/img/photo/' + photoTime + '.jpg');
         camera.start();
         camera.on("read",function(){
             console.log("reading");
             if( io ) {
-                io.sockets.emit('event:photo', photoTime);
-                console.log('send data to server' + photoTime );
+                io.sockets.emit('event:takephoto', photoTime);
+
 
             }
         });
