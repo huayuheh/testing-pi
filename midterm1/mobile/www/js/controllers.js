@@ -37,7 +37,29 @@ angular.module('starter.controllers', [])
 
   };
 })
+.controller('PhotoCtrl', function($scope) {
+    var showTime = new Date();
+    var severIPAddress = "http://10.0.1.17:8080";
 
+
+    socket.on('event:takephoto', function( photoTime ) {
+      console.log("receive data "+ photoTime);
+      setTimeout(function(){
+        $scope.$apply( function() {
+          showTime = new Date(photoTime);
+          $scope.captureTime = showTime;
+
+          $scope.captureImage = severIPAddress + "/assets/img/photo/" + photoTime + ".jpg";
+
+        });
+      },500);
+    });
+
+    $scope.video = function(){
+      console.log("video");
+      socket.emit('event:video', true);
+    };
+})
 .controller('ChatsCtrl', function($scope, Chats) {
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
