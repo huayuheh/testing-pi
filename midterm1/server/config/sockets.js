@@ -1,7 +1,8 @@
 'use strict';
 var gpio = require('onoff').Gpio,
   RaspiCam = require('raspicam'),
-    led1 = new gpio(27, 'out'),
+  motion = new gpio(21, 'in', 'both'),
+  led1 = new gpio(27, 'out'),
   buzzer = new gpio(16, 'out');
 
 var ledState = 0;
@@ -16,17 +17,31 @@ function main( server ){
     socket.emit( 'event:hello' ); // Send message exclusively to new connection
 
 
-   socket.on('event:buzzer', function () {
-     buzzer.writeSync(1);
-     console.log("turn on buzzer ");
-     setTimeout(function () {
-       buzzer.writeSync(0);
-     }, 3000);
-   });
+    socket.on('event:buzzer', function () {
+        buzzer.writeSync(1);
+        console.log("turn on buzzer ");
+        setTimeout(function () {
+            buzzer.writeSync(0);
+        }, 3000);
+    });
 
-   socket.on('event:video', function () {
-     console.log("record a video");
-   });
+    socket.on('event:video', function () {
+        console.log("record a video");
+        var photoTime = Date.now();
+        var camera = new RaspiCam({mode: 'photo', output: './server/public/img/' + photoTime +'.jpg'});
+
+        camera.set('output', './server/public/img/' + photoTime + '.jpg');
+        camera.start();
+        camera.on("read",function(){
+            console.log("reading");
+            if( io ) {
+                io.sockets.emit('event:photo', photoTime);
+                console.log('send data to server' + photoTime );
+
+            }
+        });
+
+    });
    socket.on('event:light', function () {
        console.log("turn on light ");
        ledState = ledState + 1;
