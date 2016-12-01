@@ -5,7 +5,7 @@ angular.module('starter.controllers', [])
 
   var severIPAddress = "http://10.0.1.17:8080";
   $scope.captureNote = "No motion";
-  $scope.captureTime = showTime;
+  $scope.captureTime = "";
   $scope.captureImage = severIPAddress + "/assets/img/logo-color-s.jpg";
 
   socket.on('event:photo', function( photoTime ) {
