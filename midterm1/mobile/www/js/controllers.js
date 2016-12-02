@@ -3,7 +3,7 @@ angular.module('starter.controllers', [])
 .controller('DashCtrl', function($scope) {
   var showTime = new Date();
 
-  var severIPAddress = "http://10.0.1.17:8080";
+  var severIPAddress = "http://10.10.47.184:8080";
   $scope.captureNote = "No motion";
   $scope.captureTime = "";
   $scope.captureImage = severIPAddress + "/assets/img/logo-color-s.jpg";
@@ -39,7 +39,7 @@ angular.module('starter.controllers', [])
 })
 .controller('PhotoCtrl', function($scope) {
     var showTime = new Date();
-    var severIPAddress = "http://10.0.1.17:8080";
+    var severIPAddress = "http://10.10.47.184:8080";
 
 
     socket.on('event:takephoto', function( photoTime ) {
