@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="change logo image">
+    <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/server/public/img/logo-color-s.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation/Peeper_v2.002.jpeg" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.002.jpeg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation/Peeper_v2.015.jpeg" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.015.jpeg" />
@@ -262,7 +262,7 @@
       <workItem from="1480574522094" duration="219000" />
       <workItem from="1480575060276" duration="783000" />
       <workItem from="1480642898017" duration="329000" />
-      <workItem from="1480647585295" duration="3000" />
+      <workItem from="1480647585295" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="click button to start a buzzer">
       <created>1477634542808</created>
@@ -530,11 +530,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480642993780</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="change pdf image">
+      <created>1480647611122</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1480647611122</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40307000" />
+    <option name="totallyTimeSpent" value="40382000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -645,7 +652,8 @@
     <MESSAGE value="fix mobile views" />
     <MESSAGE value="add second led and change buzzer gpio to 12" />
     <MESSAGE value="change logo image" />
-    <option name="LAST_COMMIT_MESSAGE" value="change logo image" />
+    <MESSAGE value="change pdf image" />
+    <option name="LAST_COMMIT_MESSAGE" value="change pdf image" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
