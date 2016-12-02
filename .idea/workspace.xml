@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/midterm1/server/public/img/logo-color-s.jpg" />
+    <list default="true" id="759eddbb-5491-4759-8ca5-8486716305dc" name="Default" comment="change logo image">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/IMG_0947.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/IMG_0948.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/IMG_0949.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/IMG_0950.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.001.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.002.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.003.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.004.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.005.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.006.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.007.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.008.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.009.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.010.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.011.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.012.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.013.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.014.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.015.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.016.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/Peeper_v2.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/iPhone 05 Angle 20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/video/hauyaheh_peeper_VO_01.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/video/led.m4v" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/video/led_night.m4v" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/video/led_night.mov" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/video/live.m4v" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/video/live_night.m4v" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/video/live_night.mov" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/video/motion.m4v" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/video/motion_night.m4v" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/video/motion_night.mov" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/video/peeper.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/video/record.m4v" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/video/record_night.m4v" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/video/record_night.mov" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/midterm1/server/public/img/logo-color-s.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hana-iot.iws" />
@@ -26,7 +62,7 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/midterm1/mobile/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="19">
               <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding />
             </state>
@@ -117,6 +153,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,94 +177,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="midterm1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hana-iot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hana-iot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="midterm1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hana-iot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hana-iot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="midterm1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hana-iot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hana-iot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="midterm1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hana-iot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hana-iot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="mahrio-raspbian" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,7 +294,8 @@
       <workItem from="1480565032086" duration="91000" />
       <workItem from="1480565207213" duration="2151000" />
       <workItem from="1480574522094" duration="219000" />
-      <workItem from="1480575060276" duration="309000" />
+      <workItem from="1480575060276" duration="783000" />
+      <workItem from="1480642898017" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary="click button to start a buzzer">
       <created>1477634542808</created>
@@ -592,11 +549,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480575206869</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="change logo image">
+      <created>1480575373197</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1480575373197</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39501000" />
+    <option name="totallyTimeSpent" value="40049000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1015,6 +979,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/midterm1/mobile/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/midterm1/mobile/www/templates/tab-dash.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1024,14 +996,6 @@
             <element signature="n#style#0;n#p#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/midterm1/mobile/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
