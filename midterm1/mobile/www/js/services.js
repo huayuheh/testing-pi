@@ -2,7 +2,7 @@ angular.module('starter.services', [])
 
 .factory('Chats', function() {
   // Might use a resource here that returns a JSON array
-  var severIPAddress = "http://10.1.0.17:8080";
+  var severIPAddress = "http://10.0.1.34:8080";
   // Some fake testing data
   var chats = [{
     id: 0,

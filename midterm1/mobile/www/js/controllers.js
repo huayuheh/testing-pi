@@ -39,7 +39,7 @@ angular.module('starter.controllers', [])
 })
 .controller('PhotoCtrl', function($scope) {
     var showTime = new Date();
-    var severIPAddress = "http://10.1.0.17:8080";
+    var severIPAddress = "http://10.0.1.34:8080";
 
 
     socket.on('event:takephoto', function( photoTime ) {
