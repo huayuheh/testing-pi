@@ -3,7 +3,7 @@ angular.module('starter.controllers', [])
 .controller('DashCtrl', function($scope) {
   var showTime = new Date();
 
-  var severIPAddress = "http://10.10.47.184:8080";
+  var severIPAddress = "http://localhost:8100";
   $scope.captureNote = "No motion";
   $scope.captureTime = "";
   $scope.captureImage = severIPAddress + "/assets/img/logo-color-s.jpg";
@@ -39,7 +39,7 @@ angular.module('starter.controllers', [])
 })
 .controller('PhotoCtrl', function($scope) {
     var showTime = new Date();
-    var severIPAddress = "http://10.10.47.184:8080";
+    var severIPAddress = "http://10.1.0.17:8080";
 
 
     socket.on('event:takephoto', function( photoTime ) {
@@ -69,13 +69,26 @@ angular.module('starter.controllers', [])
   //$scope.$on('$ionicView.enter', function(e) {
   //});
   //console.log(chats);
-  //$scope.chats.push(",{}");
+  $scope.chats = [];
+
+
+
   console.log(localStorage.getItem("time"));
   $scope.chats = Chats.all();
-  $scope.remove = function(chat) {
-    Chats.remove(chat);
+  $scope.reverse = function(chat) {
+    Chats.reverse(chat);
   };
+  $scope.chats.unshift(
+    {id: 4,
+      name: 'checkadee',
+      lastText: '2016-12-08 08:13:42',
+      face: '/assets/img/downy_woodpecker.jpg'});
+
+
+
 })
+
+
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
   $scope.chat = Chats.get($stateParams.chatId);
