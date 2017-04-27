@@ -1,5 +1,21 @@
 angular.module('starter.controllers', [])
 
+  .controller('HomeCtrl', function($scope) {})
+
+  .controller('DeviceCtrl', function($scope) {})
+
+  .controller('RecordCtrl', function($scope) {})
+
+  .controller('DictionaryCtrl', function($scope) {})
+
+  .controller('SettingCtrl', function($scope) {})
+
+
+
+
+
+
+
 .controller('DashCtrl', function($scope) {
   var showTime = new Date();
   var photoTimeSave = showTime;
