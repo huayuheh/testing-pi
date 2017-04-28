@@ -1,4 +1,79 @@
 /* Empty. Add your own CSS if you like */
+.padding{
+  padding: 0 16px 32px;
+}
+.padding-top{
+  padding-top: 16px;
+}
+.img{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+.row{
+  padding: 0 ;
+}
+.col{
+  padding: 0 8px;
+}
+.col:first-child{
+  padding-left: 0;
+}
+.col:last-child{
+  padding-right: 0;
+}
+.col .button.button-block{
+
+}
+
+.list-inset{
+  margin: 0;
+}
+.card{
+  margin: 16px;
+
+}
+.small-card{
+  margin: 16px 8px;
+  float: left;
+  width: calc(50% - 24px);
+}
+.small-card:nth-child(odd){
+  margin-left: 16px;
+}
+.but-small{
+  margin:  -4px 0 0 ;
+  padding: 0;
+  font-size: 24px;
+}
+.item-divider{
+  padding: 4px 4px 0;
+}
+
+
+h2{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  padding: 16px  0 8px;
+  margin: 0;
+}
+h3{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  padding: 4px  0 4px;
+  margin: 0;
+}
+
+.my-alert{
+  text-align: left;
+}
+
 .led {
   margin: 10px auto;
   border-radius: 50%;

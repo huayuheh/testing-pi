@@ -1,11 +1,27 @@
-<ion-view view-title="Live Photo">
-  <ion-content padding="true" class=" manual-remove-top-padding has-header">
-    <div id="whoIsComing-markdown5" class="show-list-numbers-and-dots">
+<ion-view view-title="Home">
+  <ion-content class="padding">
+  <H2>Live Stream</H2>
+    <img src="img/stream.jpg" alt="">
 
+    <div class="row">
+      <div class="col">
+        <button class="button button-block">Photo</button>
+      </div>
+      <div class="col">
+        <button class="button button-block">Video</button>
+      </div>
+      <div class="col">
+        <button class="button button-block">LED</button>
+      </div>
+      <div class="col">
+        <button class="button button-block">Buzzer</button>
+      </div>
     </div>
-    <div style="margin: 0px; background-color: rgb(232, 235, 239); text-align: center;">
-      <img alt="" ng-src="{{captureImage}}">
-    </div>
-    <button ng-click="video()" id="whoIsComing-button9" class="button button-energized button button-block">Take Picture</button>
+
+  <h2>Motion Alert</h2>
+    <a  class="button button-outline button-positive button-block icon-right ion-chevron-right my-alert">
+      <i class="icon ios-notifications"></i>    17.04.26</a>
   </ion-content>
+
 </ion-view>
+
