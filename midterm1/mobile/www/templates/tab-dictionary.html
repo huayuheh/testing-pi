@@ -13,49 +13,29 @@
         <button class="button button-icon icon ion-funnel"></button>
       </div>
     </div>
-  <div class="padding-top">
-    <div class="small-card" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{bird.id}}">
-      <div class="item item-divider">
-        <h3>{{chat.name}}</h3>
-      </div>
-      <div>
-        <img  ng-src="{{chat.face}}">
-      </div>
-      <div class="item item-divider">
-        <div class="row">
-          <div class="col">
-            <button class="but-small">
-              <i class="icon ion-heart"></i>
-            </button>
-          </div>
-          <div class="col">
-            <button class="but-small">
-              <i class="icon ion-eye"></i>
-            </button>
+    <div class="padding-top" >
+      <div class="small-card" ng-repeat="chat in chats">
+        <div class="item item-divider">
+          <h3>{{chat.name}}</h3>
+        </div>
+        <div>
+          <a href="#/tab/dictionary/{{chat.id}}"><img ng-src="{{chat.face}}"></a>
+        </div>
+        <div class="item item-divider">
+          <div class="row">
+            <div class="col">
+              <button class="but-small">
+                <i class="icon ion-heart"></i>
+              </button>
+            </div>
+            <div class="col">
+              <button class="but-small">
+                <i class="icon ion-eye"></i>
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
-    <!--<ion-list>-->
-      <!--<ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">-->
-        <!--<img ng-src="{{chat.face}}">-->
-        <!--<h2>{{chat.name}}</h2>-->
-        <!--<p>{{chat.lastText}}</p>-->
-        <!--<i class="icon ion-chevron-right icon-accessory"></i>-->
-
-        <!--<ion-option-button class="button-assertive" ng-click="remove(chat)">-->
-          <!--Delete-->
-        <!--</ion-option-button>-->
-      <!--</ion-item>-->
-    <!--</ion-list>-->
-  </div>
-
-
-
-
-
   </ion-content>
 </ion-view>

@@ -8,7 +8,12 @@ angular.module('starter.services', [])
       id: 0,
       name: 'Tree Sparrow',
       lastText: 'You on your way?',
-      face: 'img/american_crow.jpg'
+      face: 'img/american_crow.jpg',
+      size: 'Crows',
+      length:'16-21',
+      weight:'11–22',
+      facts:'American Crows are familiar over much of the continent: large, intelligent, all-black birds with hoarse, cawing voices. They are common sights in treetops, fields, and roadsides, and in habitats ranging from open woods and empty beaches to town centers.'
+
     }, {
       id: 1,
       name: 'Gold Finch',
@@ -41,7 +46,7 @@ angular.module('starter.services', [])
       get: function(chatId) {
         for (var i = 0; i < chats.length; i++) {
           if (chats[i].id === parseInt(chatId)) {
-            return chaçts[i];
+            return chats[i];
           }
         }
         return null;
