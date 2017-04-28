@@ -1,6 +1,18 @@
 angular.module('starter.controllers', [])
 
-  .controller('HomeCtrl', function($scope) {})
+  .controller('HomeCtrl', function($scope) {
+    $scope.turnLight = function(){
+      console.log("Light");
+      socket.emit('event:light', true);
+    };
+
+    $scope.turnBuzzer = function(){
+      console.log("Buzzer");
+      socket.emit('event:buzzer', true);
+    };
+
+
+  })
 
   .controller('AlertCtrl', function($scope) {
 
