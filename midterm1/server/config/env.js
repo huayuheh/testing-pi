@@ -6,8 +6,8 @@ var Path = require('path'),
 module.exports = function( env ) {
     // Define default parameters and allow extending
     var environment =  {
-        port: 8080,
-        url: '192.168.8.110'
+        port: 8100,
+        url: '10.0.1.25'
     };
 
     environment.rootPath = rootPath;
