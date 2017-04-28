@@ -62,10 +62,7 @@ angular.module('starter.controllers', [])
       });
     },500);
   });
-  $scope.buzzer = function(){
-    console.log("Buzzer");
-    socket.emit('event:buzzer', true);
-  };
+
 
   $scope.identify = function(){
     console.log("save it" + photoTimeSave );

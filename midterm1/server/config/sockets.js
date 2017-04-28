@@ -16,15 +16,6 @@ function main( server ){
 
     socket.emit( 'event:hello' ); // Send message exclusively to new connection
 
-      socket.on('event:light', function () {
-          console.log("turn on light ");
-          ledState = ledState + 1;
-          led1.writeSync(ledState%2);
-          led2.writeSync(ledState%2);
-      });
-
-
-
     socket.on('event:buzzer', function () {
         buzzer.writeSync(1);
         console.log("turn on buzzer ");
@@ -47,6 +38,13 @@ function main( server ){
         });
     });
 
+
+   socket.on('event:light', function () {
+       console.log("turn on light ");
+       ledState = ledState + 1;
+       led1.writeSync(ledState%2);
+       led2.writeSync(ledState%2);
+   });
     socket.on( 'disconnect', function(){
       console.log('goodbye socket...' + socket.id ); // Record the disconnection
     });
