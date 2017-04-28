@@ -40,25 +40,85 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
   // Each tab has its own nav history stack:
 
-  .state('tab.dash', {
-    url: '/dash',
+  .state('tab.home', {
+    url: '/home',
     views: {
-      'tab-dash': {
-        templateUrl: 'templates/tab-dash.html',
-        controller: 'DashCtrl'
+      'tab-home': {
+        templateUrl: 'templates/tab-home.html',
+        controller: 'HomeCtrl'
       }
     }
   })
-    .state('tab.photo', {
-      url: '/photo',
+    .state('tab.alert', {
+      url: '/alert',
       views: {
-        'tab-photo': {
-          templateUrl: 'templates/tab-photo.html',
-          controller: 'PhotoCtrl'
+        'alert': {
+          templateUrl: 'templates/alert.html',
+          controller: 'AlertCtrl'
         }
       }
     })
-  .state('tab.chats', {
+
+  .state('tab.device', {
+    url: '/device',
+    views: {
+      'tab-device': {
+        templateUrl: 'templates/tab-device.html',
+        controller: 'DeviceCtrl'
+      }
+    }
+  })
+
+  .state('tab.record', {
+    url: '/record',
+    views: {
+      'tab-record': {
+        templateUrl: 'templates/tab-record.html',
+        controller: 'RecordCtrl'
+      }
+    }
+  })
+    .state('tab.dictionary', {
+      url: '/dictionary',
+      views: {
+        'tab-dictionary': {
+          templateUrl: 'templates/tab-dictionary.html',
+          controller: 'DictionaryCtrl'
+        }
+      }
+    })
+      .state('tab.dictionary-detail', {
+        url: '/dictionary/:chatId',
+        views: {
+          'tab-dictionary': {
+            templateUrl: 'templates/dictionary-detail.html',
+            controller: 'DictionaryDetailCtrl'
+          }
+        }
+      })
+
+    .state('tab.setting', {
+      url: '/setting',
+      views: {
+        'tab-setting': {
+          templateUrl: 'templates/tab-setting.html',
+          controller: 'SettingCtrl'
+        }
+      }
+    })
+
+      .state('setting-alert', {
+        url: '/setting/:alert',
+        views: {
+          'tab-setting': {
+            templateUrl: 'templates/setting-alert.html',
+            controller: 'SettingCtrl'
+          }
+        }
+      })
+
+
+    .state('tab.chats', {
       url: '/chats',
       views: {
         'tab-chats': {
@@ -67,8 +127,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
       }
     })
-
-
     .state('tab.chat-detail', {
       url: '/chats/:chatId',
       views: {
@@ -79,6 +137,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
+
   .state('tab.account', {
     url: '/account',
     views: {
@@ -87,9 +146,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         controller: 'AccountCtrl'
       }
     }
-  });
+  })
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/dash');
+  $urlRouterProvider.otherwise('/tab/home');
 
 });

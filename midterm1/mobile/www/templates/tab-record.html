@@ -1,0 +1,41 @@
+<ion-view view-title="Record">
+  <ion-content class="padding padding-top">
+    <div class="row">
+      <div class="col-90">
+        <div class="list list-inset">
+          <label class="item item-input">
+            <i class="icon ion-search placeholder-icon"></i>
+            <input type="text" placeholder="Search">
+          </label>
+        </div>
+      </div>
+      <div class="col-10">
+        <button class="button button-icon icon ion-funnel"></button>
+      </div>
+    </div>
+    <div class="padding-top" >
+      <div class="small-card" ng-repeat="chat in chats">
+        <div class="item item-divider">
+          <h3>{{chat.name}}</h3>
+        </div>
+        <div>
+          <a href="#/tab/dictionary/{{chat.id}}"><img ng-src="{{chat.face}}"></a>
+        </div>
+        <div class="item item-divider">
+          <div class="row">
+            <div class="col">
+              <button class="but-small">
+                <i class="icon ion-heart"></i>
+              </button>
+            </div>
+            <div class="col">
+              <button class="but-small">
+                <i class="icon ion-eye"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

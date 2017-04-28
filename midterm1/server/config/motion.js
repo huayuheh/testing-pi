@@ -9,7 +9,7 @@ var camera = new RaspiCam({mode: 'photo', output: './server/public/img/' + photo
 motion.watch( function(err, val){
   if( err ) { console.log('Motion in 21 Error'); return; }
   if (val){
-    console.log('motion sensor detact something');
+    console.log('motion sensor detect something');
     
     camera.set('output', './server/public/img/' + photoTime + '.jpg');	
     camera.start();

@@ -1,15 +1,61 @@
 angular.module('starter.controllers', [])
 
+  .controller('HomeCtrl', function($scope) {
+    $scope.turnLight = function(){
+      console.log("Light");
+      socket.emit('event:light', true);
+    };
+
+    $scope.turnBuzzer = function(){
+      console.log("Buzzer");
+      socket.emit('event:buzzer', true);
+    };
+
+
+  })
+
+  .controller('AlertCtrl', function($scope) {
+
+
+  })
+
+  .controller('DeviceCtrl', function($scope) {})
+
+  .controller('RecordCtrl', function($scope) {})
+
+  .controller('DictionaryCtrl', function($scope, Chats) {
+    $scope.chats = Chats.all();
+    $scope.remove = function(chat) {
+      Chats.remove(chat);
+    };
+  })
+    .controller('DictionaryDetailCtrl', function($scope, $stateParams, Chats) {
+      $scope.chat = Chats.get($stateParams.chatId);
+    })
+
+  .controller('SettingCtrl', function($scope) {})
+
+  .controller('AlertDetailCtrl', function($scope) {})
+
+
+
+
+
 .controller('DashCtrl', function($scope) {
   var showTime = new Date();
+<<<<<<< HEAD
 
   var severIPAddress = "http://10.10.47.184:8080";
+=======
+  var photoTimeSave = showTime;
+  var severIPAddress = "http://10.0.1.34:8080";
+>>>>>>> f643b95f9ce56d41f37a8638456389810482d180
   $scope.captureNote = "No motion";
   $scope.captureTime = "";
   $scope.captureImage = severIPAddress + "/assets/img/logo-color-s.jpg";
 
   socket.on('event:photo', function( photoTime ) {
-    console.log("receive data "+ photoTime);
+    photoTimeSave = photoTime;
     setTimeout(function(){
       $scope.$apply( function() {
         $scope.captureNote = "Detacted a motion";
@@ -21,25 +67,26 @@ angular.module('starter.controllers', [])
       });
     },500);
   });
-  $scope.buzzer = function(){
-    console.log("Buzzer");
-    socket.emit('event:buzzer', true);
-  };
-  $scope.video = function(){
-    console.log("video");
-    socket.emit('event:video', true);
-  };
-  $scope.identify = function(){
 
-    localStorage.setItem("time", showTime);
-    console.log(localStorage.getItem("time"));
-    document.getElementById("savedtime").innerHTML = localStorage.getItem("lastname");
+
+  $scope.identify = function(){
+    console.log("save it" + photoTimeSave );
+    $scope.chats = [];
+    $scope.chats.unshift(
+      {id: 4,
+        name: 'checkadee',
+        lastText: '2016-12-08 08:13:42',
+        face: '/assets/img/' + photoTimeSave + '.jpg'});
 
   };
 })
 .controller('PhotoCtrl', function($scope) {
     var showTime = new Date();
+<<<<<<< HEAD
     var severIPAddress = "http://10.10.47.184:8080";
+=======
+    var severIPAddress = "http://10.0.1.34:8080";
+>>>>>>> f643b95f9ce56d41f37a8638456389810482d180
 
 
     socket.on('event:takephoto', function( photoTime ) {
@@ -60,22 +107,8 @@ angular.module('starter.controllers', [])
       socket.emit('event:video', true);
     };
 })
-.controller('ChatsCtrl', function($scope, Chats) {
-  // With the new view caching in Ionic, Controllers are only called
-  // when they are recreated or on app start, instead of every page change.
-  // To listen for when this page is active (for example, to refresh data),
-  // listen for the $ionicView.enter event:
-  //
-  //$scope.$on('$ionicView.enter', function(e) {
-  //});
-  //console.log(chats);
-  //$scope.chats.push(",{}");
-  console.log(localStorage.getItem("time"));
-  $scope.chats = Chats.all();
-  $scope.remove = function(chat) {
-    Chats.remove(chat);
-  };
-})
+
+
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
   $scope.chat = Chats.get($stateParams.chatId);

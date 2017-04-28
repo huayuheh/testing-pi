@@ -37,6 +37,8 @@ function main( server ){
             }
         });
     });
+
+
    socket.on('event:light', function () {
        console.log("turn on light ");
        ledState = ledState + 1;

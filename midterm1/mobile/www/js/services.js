@@ -1,45 +1,55 @@
 angular.module('starter.services', [])
 
-.factory('Chats', function() {
-  // Might use a resource here that returns a JSON array
+  .factory('Chats', function() {
+    // Might use a resource here that returns a JSON array
 
-  // Some fake testing data
-  var chats = [{
-    id: 0,
-    name: 'Goldfinch',
-    lastText: '2016-11-28 17:34:58',
-    face: 'img/american_goldfinch.jpg'
-  }, {
-    id: 1,
-    name: 'Cassins Finch',
-    lastText: '2016-11-27 07:28:21',
-    face: 'img/cassins_finch.jpg'
-  }, {
-    id: 2,
-    name: 'Titmouse',
-    lastText: '2016-11-25 07:42:30',
-    face: 'img/black-crested_titmouse.jpg'
-  }, {
-    id: 3,
-    name: 'Woodpecker',
-    lastText: '2016-11-22 08:13:42',
-    face: 'img/downy_woodpecker.jpg'
-  }];
+    // Some fake testing data
+    var chats = [{
+      id: 0,
+      name: 'Tree Sparrow',
+      lastText: 'You on your way?',
+      face: 'img/american_crow.jpg',
+      size: 'Crows',
+      length:'16-21',
+      weight:'11–22',
+      facts:'American Crows are familiar over much of the continent: large, intelligent, all-black birds with hoarse, cawing voices. They are common sights in treetops, fields, and roadsides, and in habitats ranging from open woods and empty beaches to town centers.'
 
-  return {
-    all: function() {
-      return chats;
-    },
-    remove: function(chat) {
-      chats.splice(chats.indexOf(chat), 1);
-    },
-    get: function(chatId) {
-      for (var i = 0; i < chats.length; i++) {
-        if (chats[i].id === parseInt(chatId)) {
-          return chats[i];
+    }, {
+      id: 1,
+      name: 'Gold Finch',
+      lastText: 'Hey, it\'s me',
+      face: 'img/american_goldfinch.jpg'
+    }, {
+      id: 2,
+      name: 'Tree Sparrow',
+      lastText: 'I should buy a boat',
+      face: 'img/american_tree_sparrow.jpg'
+    }, {
+      id: 3,
+      name: 'Band Tailed Pigeon',
+      lastText: 'Look at my mukluks!',
+      face: 'img/band-tailed_pigeon.jpg'
+    }, {
+      id: 4,
+      name: '',
+      lastText: 'This is wicked good ice cream.',
+      face: 'img/mike.png'
+    }];
+
+    return {
+      all: function() {
+        return chats;
+      },
+      remove: function(chat) {
+        chats.splice(chats.indexOf(chat), 1);
+      },
+      get: function(chatId) {
+        for (var i = 0; i < chats.length; i++) {
+          if (chats[i].id === parseInt(chatId)) {
+            return chats[i];
+          }
         }
+        return null;
       }
-      return null;
-    }
-  };
-});
+    };
+  });
