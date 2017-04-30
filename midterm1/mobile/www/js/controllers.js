@@ -14,10 +14,7 @@ angular.module('starter.controllers', [])
 
   })
 
-  .controller('AlertCtrl', function($scope) {
-
-
-  })
+  .controller('AlertCtrl', function($scope) {})
 
   .controller('DeviceCtrl', function($scope) {})
 
@@ -35,7 +32,7 @@ angular.module('starter.controllers', [])
 
   .controller('SettingCtrl', function($scope) {})
 
-  .controller('AlertDetailCtrl', function($scope) {})
+  .controller("AlertDetailCtrl", function($scope) {})
 
 
 
