@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f8900e8-c265-4b9a-a72f-070a879a1482" name="New changelist" comment="upload ionic pages">
+    <list default="true" id="7f8900e8-c265-4b9a-a72f-070a879a1482" name="New changelist" comment="try use socket.io to control the LED and Buzzer">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/css/style.css" afterPath="$PROJECT_DIR$/server/mobile/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/setting-alert.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/setting-alert.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/tab-dictionary.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/tab-dictionary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
     </list>
     <ignored path="hana-iot.iws" />
@@ -38,8 +35,8 @@
             <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/server/mobile/www/js/controllers.js">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="210">
-                    <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+                  <state relative-caret-position="2451">
+                    <caret line="129" column="43" lean-forward="true" selection-start-line="129" selection-start-column="43" selection-end-line="129" selection-end-column="43" />
                     <folding />
                   </state>
                 </provider>
@@ -59,8 +56,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="779">
+              <caret line="41" column="3" lean-forward="false" selection-start-line="41" selection-start-column="3" selection-end-line="43" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -168,9 +165,9 @@
     <handled-path value="$PROJECT_DIR$/server/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1113" />
+    <option name="x" value="1278" />
     <option name="y" value="23" />
-    <option name="width" value="1410" />
+    <option name="width" value="1278" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -443,14 +440,7 @@
       <workItem from="1493345753772" duration="121000" />
       <workItem from="1493349767389" duration="5354000" />
       <workItem from="1493587856579" duration="6916000" />
-      <workItem from="1493595812769" duration="5696000" />
-    </task>
-    <task id="LOCAL-00001" summary="click button to start a buzzer">
-      <created>1477634542808</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1477634542808</updated>
+      <workItem from="1493595812769" duration="6499000" />
     </task>
     <task id="LOCAL-00002" summary="click button to start a buzzer">
       <created>1477634635552</created>
@@ -788,11 +778,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493600637099</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="try use socket.io to control the LED and Buzzer">
+      <created>1493603467238</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1493603467239</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97781000" />
+    <option name="totallyTimeSpent" value="98584000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -804,10 +801,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1113" y="23" width="1410" height="1417" extended-state="0" />
+    <frame x="1278" y="23" width="1278" height="1417" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25939307" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28674123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.4979424" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25171626" sideWeight="0.50486165" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2562929" sideWeight="0.48832685" order="7" side_tool="false" content_ui="tabs" />
@@ -884,7 +881,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/mahrio-raspbian" />
     </ignored-roots>
-    <MESSAGE value="update mobile view side" />
     <MESSAGE value="change ip address to school's ip address" />
     <MESSAGE value="get pictures from server" />
     <MESSAGE value="Add turn on/off light button" />
@@ -909,7 +905,8 @@
     <MESSAGE value="change to the mahrio server and fix the link problem" />
     <MESSAGE value="New changelist" />
     <MESSAGE value="upload ionic pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload ionic pages" />
+    <MESSAGE value="try use socket.io to control the LED and Buzzer" />
+    <option name="LAST_COMMIT_MESSAGE" value="try use socket.io to control the LED and Buzzer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1264,16 +1261,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/mobile/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="2451">
+          <caret line="129" column="43" lean-forward="true" selection-start-line="129" selection-start-column="43" selection-end-line="129" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="779">
+          <caret line="41" column="3" lean-forward="false" selection-start-line="41" selection-start-column="3" selection-end-line="43" selection-end-column="22" />
           <folding />
         </state>
       </provider>
