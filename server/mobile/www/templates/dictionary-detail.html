@@ -1,0 +1,24 @@
+<ion-view view-title="{{chat.name}}">
+  <h1 id="savedtime"></h1>
+  <ion-content class="padding padding-top">
+    <img class="large-img" ng-src="{{chat.face}}">
+    <div class="row padding-top">
+      <div class="col-33 ">
+        <p class="p-note">Size</p>
+        <p class="p-big">{{chat.size}}</p>
+      </div>
+      <div class="col-33 ">
+        <p class="p-note">Length</p>
+        <p class="p-big">{{chat.length}} <span class="span-small">in</span></p>
+      </div>
+      <div class="col-33">
+        <p class="p-note">Weight</p>
+        <p class="p-big">{{chat.weight}} <span class="span-small">oz</span></p>
+      </div>
+    </div>
+    <div class="padding padding-top my-border">
+      <p>{{chat.facts}}</p>
+    </div>
+
+  </ion-content>
+</ion-view>
