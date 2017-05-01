@@ -14,14 +14,14 @@ require('mahrio').runServer( process.env, __dirname ).then( function( server ) {
 
   var io = require('socket.io').listen( server.listener );
 
-    var gpio = require('onoff').Gpio,
-        RaspiCam = require('raspicam'),
-        led1 = new gpio(27, 'out'),
-        led2 = new gpio(22, 'out'),
-        buzzer = new gpio(12, 'out');
-
-    var ledState = 0;
-    var io = null;
+    // var gpio = require('onoff').Gpio,
+    //     RaspiCam = require('raspicam'),
+    //     led1 = new gpio(27, 'out'),
+    //     led2 = new gpio(22, 'out'),
+    //     buzzer = new gpio(12, 'out');
+    //
+    // var ledState = 0;
+    // var io = null;
 
   io.on('connection', function( socket ) {
     console.log('connection: ', socket.id );
@@ -30,18 +30,18 @@ require('mahrio').runServer( process.env, __dirname ).then( function( server ) {
       //LED
       socket.on('event:light', function () {
           console.log("turn on light ");
-          ledState = ledState + 1;
-          led1.writeSync(ledState%2);
-          led2.writeSync(ledState%2);
+          // ledState = ledState + 1;
+          // led1.writeSync(ledState%2);
+          // led2.writeSync(ledState%2);
       });
 
       //Buzzer
       socket.on('event:buzzer', function () {
-          buzzer.writeSync(1);
+          // buzzer.writeSync(1);
           console.log("turn on buzzer ");
-          setTimeout(function () {
-              buzzer.writeSync(0);
-          }, 3000);
+          // setTimeout(function () {
+          //     buzzer.writeSync(0);
+          // }, 3000);
       });
 
   
