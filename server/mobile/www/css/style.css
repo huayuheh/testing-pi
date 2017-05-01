@@ -1,4 +1,111 @@
 /* Empty. Add your own CSS if you like */
+.padding{
+  padding: 0 16px 32px;
+}
+.padding-top{
+  padding-top: 16px;
+}
+.img{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+.row{
+  padding: 0 ;
+}
+.col{
+  padding: 0 8px;
+}
+.col:first-child{
+  padding-left: 0;
+}
+.col:last-child{
+  padding-right: 0;
+}
+.col .button.button-block{
+
+}
+
+.list-inset{
+  margin: 0;
+}
+.card{
+  margin: 16px;
+
+}
+.small-card{
+  margin: 16px 8px 0;
+  float: left;
+  width: calc(50% - 24px);
+}
+.small-card:nth-child(odd){
+  margin-left: 16px;
+}
+.but-small{
+  margin:  -4px 0 0 ;
+  padding: 0;
+  font-size: 24px;
+}
+.item-divider{
+  padding: 4px 4px 0;
+}
+
+
+h2{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  padding: 16px  0 8px;
+  margin: 0;
+}
+h3{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  padding: 4px  0 4px;
+  margin: 0;
+}
+.p-note{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 8px;
+  text-align: center;
+}
+.p-big{
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.span-small{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.my-border{
+  border: 1px solid black;
+}
+
+
+.list{
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+.my-alert{
+  text-align: left;
+}
+
 .led {
   margin: 10px auto;
   border-radius: 50%;
@@ -10,4 +117,19 @@
 
 .active {
   background-color: green;
+}
+
+img{
+  width: 100%;
+}
+.bird-thumb{
+  top:8px !important;
+  left:8px !important;
+  max-width: 56px !important;
+  max-height: 56px !important;
+  border-radius: 8px !important;
+}
+.large-img{
+  width: 100% !important;
+  height: 100% !important;
 }
