@@ -38,11 +38,11 @@ require('mahrio').runServer( process.env, __dirname ).then( function( server ) {
 
       //Buzzer
       socket.on('event:buzzer', function () {
-          // buzzer.writeSync(1);
+          buzzer.writeSync(1);
           console.log("turn on buzzer ");
-          // setTimeout(function () {
-          //     buzzer.writeSync(0);
-          // }, 3000);
+          setTimeout(function () {
+              buzzer.writeSync(0);
+          }, 3000);
       });
 
   
