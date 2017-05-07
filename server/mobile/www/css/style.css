@@ -5,6 +5,9 @@
 .padding-top{
   padding-top: 16px;
 }
+.padding-top-small{
+  padding-top: 8px;
+}
 .padding-bottom{
   padding-bottom: 8px ;
 }
@@ -46,14 +49,14 @@
   margin: 0;
 }
 .big-card{
-  margin: 16px 8px 0;
+  margin: 8px 8px 0;
   border: 1px solid #055277;
   border-radius: 16px;
 
 /*small card*/
 }
 .small-card{
-  margin: 16px 8px 0 8px;
+  margin: 8px 8px 8px 8px;
   float: left;
   width: calc(50% - 16px);
   border: 1px solid #055277;
@@ -204,7 +207,7 @@ img{
 
 .flow-bottom{
   position: absolute;
-  top: 96px;
+  top: 140px;
   width: calc(50% - 32px);
 }
 .device-icon{
@@ -303,7 +306,7 @@ ion-tabs{
 
 
 .button-assertive{
-  background:linear-gradient(90deg, #F7852C, #F15E2E 100%, transparent 50%);
+
 }
 .button-positive{
 
@@ -321,7 +324,33 @@ ion-tabs{
   background-color: #17B497;
   border-radius: 16px;
 }
+.button.button-positive.active, .button.button-positive.activated {
+  border-color: #1F92AC;
+  background-color: #1F92AC;
+  font-weight: 600;
+}
+.button.button-positive.button-clear{
+  border-color: #17B497;
+  color: #17B497;
+}
+.button.button-positive.button-clear.active, .button.button-positive.button-clear.activated{
+  border-color: #1F92AC;
+  background-color: #ffffff;
+  color: #1F92AC;
+  font-weight: 600;
+}
 
+.button.button-assertive.button-outline{
+  border-color: #F7852C;
+  color: #F7852C;
+}
+
+.button.button-assertive.button-outline.active, .button.button-assertive.button-outline.activated{
+  border-color: #F7852C;
+  background:linear-gradient(90deg, #F7852C, #F15E2E 100%, transparent 50%);
+  color: white;
+  font-weight: 600;
+}
 
 /*item*/
 a.item{
@@ -373,10 +402,25 @@ a.item{
   padding-left: 16px;
   color: #B4CBD6;
 }
+
 .item-input{
   width:100% ;
   margin-left: 16px;
 }
 .card .item:last-child, .list-inset .item:last-child, .padding > .list .item:last-child{
   border-radius: 20px;
+}
+.card .item.item-input input, .list-inset .item.item-input input, .padding > .list .item.item-input input, .padding-horizontal > .list .item.item-input input{
+  padding-left: 16px;
+}
+.big-textarea{
+  margin: 0 0 0 0 !important;
+  width:100%  !important;
+  height: 142px !important;
+  padding: 16px;
+  color: #5186A0;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  border: 1px solid #055277;
+  border-radius: 16px;
 }
