@@ -353,14 +353,7 @@
       <workItem from="1493587856579" duration="6916000" />
       <workItem from="1493595812769" duration="7663000" />
       <workItem from="1493972914404" duration="8000" />
-      <workItem from="1494033115019" duration="24827000" />
-    </task>
-    <task id="LOCAL-00006" summary="Socket io can't recieve signal from website">
-      <created>1477636012504</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1477636012504</updated>
+      <workItem from="1494033115019" duration="24845000" />
     </task>
     <task id="LOCAL-00007" summary="change the image path saved in the server">
       <created>1477683131568</created>
@@ -698,11 +691,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494130135559</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="interface redesign">
+      <created>1494130168705</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1494130168705</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124583000" />
+    <option name="totallyTimeSpent" value="124601000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
