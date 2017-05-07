@@ -353,14 +353,7 @@
       <workItem from="1493587856579" duration="6916000" />
       <workItem from="1493595812769" duration="7663000" />
       <workItem from="1493972914404" duration="8000" />
-      <workItem from="1494033115019" duration="24852000" />
-    </task>
-    <task id="LOCAL-00008" summary="change ip address to school's">
-      <created>1477683311874</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1477683311874</updated>
+      <workItem from="1494033115019" duration="24854000" />
     </task>
     <task id="LOCAL-00009" summary="change ip address to school's">
       <created>1478287541893</created>
@@ -698,11 +691,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494130186096</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="interface redesign">
+      <created>1494130190176</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1494130190176</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124608000" />
+    <option name="totallyTimeSpent" value="124610000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
