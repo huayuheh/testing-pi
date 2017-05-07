@@ -17,7 +17,9 @@
 .no-padding{
   padding: 0;
 }
-
+.padding-side{
+  padding: 0 8px;
+}
 
 .img{
   width: 100%;
@@ -79,7 +81,7 @@
 .btn-small{
   font-size: 13px;
   line-height: 16px;
-  padding: 8px;
+  padding: 8px 0 ;
   margin: 0;
   color: #82A8BB;
 }
@@ -323,6 +325,7 @@ ion-tabs{
 .button.button-positive{
   background-color: #17B497;
   border-radius: 16px;
+
 }
 .button.button-positive.active, .button.button-positive.activated {
   border-color: #1F92AC;
