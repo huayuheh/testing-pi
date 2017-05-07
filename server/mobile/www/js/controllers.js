@@ -14,6 +14,7 @@ angular.module('starter.controllers', [])
 
   })
 
+
   .controller('AlertCtrl', function($scope) {})
 
   .controller('DeviceCtrl', function($scope) {})

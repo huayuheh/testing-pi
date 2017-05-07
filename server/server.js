@@ -6,7 +6,7 @@ var gpio = require('onoff').Gpio,
 
 var ledState = 0;
 
-process.env.NODE_URL='10.0.1.25';
+process.env.NODE_URL='10.0.1.30';
 
 require('mahrio').runServer( process.env, __dirname ).then( function( server ) {
 
