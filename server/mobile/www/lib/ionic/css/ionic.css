@@ -8682,9 +8682,7 @@ progress {
     .button.button-positive:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-positive.active, .button.button-positive.activated {
-      border-color: #a2a2a2;
-      background-color: #0c60ee; }
+
     .button.button-positive.button-clear {
       border-color: transparent;
       background: none;
