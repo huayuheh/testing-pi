@@ -1,7 +1,7 @@
 <ion-view view-title="Record">
   <ion-content class="padding padding-top">
     <div class="row">
-      <div class="col-90">
+      <div class="col-80">
         <div class="list list-inset">
           <label class="item item-input">
             <i class="icon ion-search placeholder-icon"></i>
@@ -9,11 +9,11 @@
           </label>
         </div>
       </div>
-      <div class="col-10">
-        <button class="button button-icon icon ion-funnel"></button>
+      <div class="col-20">
+        <button class="button button-icon my-icon-button"></button>
       </div>
     </div>
-    <div class="padding-top" >
+
       <div class="small-card" ng-repeat="chat in chats">
         <div class="item item-divider">
           <h3>{{chat.name}}</h3>
@@ -36,6 +36,6 @@
           </div>
         </div>
       </div>
-    </div>
+
   </ion-content>
 </ion-view>
