@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f8900e8-c265-4b9a-a72f-070a879a1482" name="New changelist" comment="try use socket.io to control the LED and Buzzer">
+    <list default="true" id="7f8900e8-c265-4b9a-a72f-070a879a1482" name="New changelist" comment="interface redesign">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/midterm1/mobile/www/index.html" afterPath="$PROJECT_DIR$/midterm1/mobile/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/css/style.css" afterPath="$PROJECT_DIR$/server/mobile/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/index.html" afterPath="$PROJECT_DIR$/server/mobile/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/js/services.js" afterPath="$PROJECT_DIR$/server/mobile/www/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/dictionary-detail.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/dictionary-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/setting-alert.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/setting-alert.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/tab-device.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/tab-device.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/tab-dictionary.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/tab-dictionary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/tab-home.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/tab-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/tab-record.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/tab-record.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/tab-setting.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/tab-setting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/tabs.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/tabs.html" />
     </list>
     <ignored path="hana-iot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -365,14 +353,7 @@
       <workItem from="1493587856579" duration="6916000" />
       <workItem from="1493595812769" duration="7663000" />
       <workItem from="1493972914404" duration="8000" />
-      <workItem from="1494033115019" duration="24781000" />
-    </task>
-    <task id="LOCAL-00005" summary="Socket io can't recieve signal from website">
-      <created>1477635898834</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1477635898834</updated>
+      <workItem from="1494033115019" duration="24827000" />
     </task>
     <task id="LOCAL-00006" summary="Socket io can't recieve signal from website">
       <created>1477636012504</created>
@@ -710,11 +691,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493605510776</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="interface redesign">
+      <created>1494130135559</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1494130135559</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124537000" />
+    <option name="totallyTimeSpent" value="124583000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -806,7 +794,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/mahrio-raspbian" />
     </ignored-roots>
-    <MESSAGE value="change ip address to school's ip address" />
     <MESSAGE value="get pictures from server" />
     <MESSAGE value="Add turn on/off light button" />
     <MESSAGE value="change typo" />
@@ -831,7 +818,8 @@
     <MESSAGE value="New changelist" />
     <MESSAGE value="upload ionic pages" />
     <MESSAGE value="try use socket.io to control the LED and Buzzer" />
-    <option name="LAST_COMMIT_MESSAGE" value="try use socket.io to control the LED and Buzzer" />
+    <MESSAGE value="interface redesign" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface redesign" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
