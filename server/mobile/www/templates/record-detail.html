@@ -1,0 +1,24 @@
+<ion-view view-title="{{record.name}}">
+  <h1 id="savedtime"></h1>
+  <ion-content class="padding padding-top">
+    <img class="large-img" ng-src="{{record.face}}">
+    <div class="row padding-top bird-top-border">
+      <div class="col-33 ">
+        <p class="p-note">Date</p>
+        <p class="p-big">{{record.date}}</p>
+      </div>
+      <div class="col-33 side-border">
+        <p class="p-note">Time</p>
+        <p class="p-big">{{record.time}}</span></p>
+      </div>
+      <div class="col-33">
+        <p class="p-note">Food</p>
+        <p class="p-big">{{record.food}}</p>
+      </div>
+    </div>
+    <div class="padding padding-top bird-bottom-border">
+      <p>{{record.note}}</p>
+    </div>
+
+  </ion-content>
+</ion-view>
