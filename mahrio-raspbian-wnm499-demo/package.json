@@ -1,0 +1,36 @@
+{
+  "name": "mahrio-raspbian",
+  "version": "1.0.0",
+  "authors": [
+    "Jesus Guerrero"
+  ],
+  "description": "Powered by MAHR.IO",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "respository": {
+    "type": "git",
+    "url": "git@github.com:ComputerEnchiladas/mahrio-raspbian.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "boom": "2.10.1",
+    "ejs": "2.4.2",
+    "good": "6.3.0",
+    "good-console": "5.3.1",
+    "hapi": "8.8.1",
+    "johnny-five": "^0.10.0",
+    "lirc_node": "0.0.4",
+    "node-env-file": "0.1.8",
+    "omxdirector": "^0.1.2",
+    "onoff": "^1.1.1",
+    "promise": "^7.1.1",
+    "promise-settle": "^0.3.0",
+    "raspi-io": "^6.1.0",
+    "raspicam": "^0.2.13",
+    "rpi-gpio": "^0.7.0",
+    "serialport": "^4.0.6",
+    "socket.io": "^1.4.8"
+  }
+}

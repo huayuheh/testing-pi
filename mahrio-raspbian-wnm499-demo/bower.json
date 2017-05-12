@@ -1,0 +1,23 @@
+{
+  "name": "mahrio-raspbian",
+  "version": "1.0.0",
+  "authors": [
+    "Jesus Guerrero"
+  ],
+  "main": "server/index.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.8",
+    "bootstrap": "3.3.7",
+    "socket.io-client": "1.4.8",
+    "angular-route": "1.5.8"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
