@@ -1,3 +1,4 @@
+//IOT sensors from raspberry pi
 var gpio = require('onoff').Gpio,
     camera = require('./camera')(),
     cameraMode = camera.status().mode,
@@ -7,6 +8,15 @@ var gpio = require('onoff').Gpio,
 
 var ledState = 0;
 
+
+// Twilio, the SMS system service
+var accountSid = 'AC70731db98f0a7ad0863697704e8e4716';
+var authToken = '281c19c81e4762364b53524f5bf7eadc';
+var twilio = require('twilio');
+var client = new twilio(accountSid, authToken);
+
+
+//ip address
 process.env.NODE_URL='hana.local';
 
 require('mahrio').runServer( process.env, __dirname ).then( function( server ) {
@@ -20,6 +30,16 @@ require('mahrio').runServer( process.env, __dirname ).then( function( server ) {
       }
     }
   });
+
+    client.messages.create({
+        body: 'Server Running',
+        to: '+14159990504',  // Text this number
+        from: '+14159694541' // From a valid Twilio number
+    }).then(function(message){
+        console.log(message.sid)
+        console.log('message sent');
+    });
+
 
   var io = require('socket.io').listen( server.listener );
   io.on('connection', function( socket ) {

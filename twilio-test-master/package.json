@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mahrio": "^1.0.0",
+    "twilio": "^3.0.0"
+  }
+}
