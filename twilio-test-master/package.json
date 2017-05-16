@@ -1,8 +1,6 @@
 {
   "dependencies": {
     "mahrio": "^1.0.0",
-    "promise": "^7.1.1",
-    "socket.io": "^1.7.3",
     "twilio": "^3.0.0"
   }
 }
