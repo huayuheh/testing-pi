@@ -1,0 +1,11 @@
+.no-margin {
+    margin: 0 !important;
+}
+.light-border {
+    border: 2px solid #e3e3e3;
+    margin-bottom: 10px;
+}
+.active a {
+    border: 2px solid #337ab7;
+    margin-bottom: 10px;
+}
