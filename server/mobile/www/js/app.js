@@ -78,24 +78,33 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     }
   })
-    .state('tab.dictionary', {
-      url: '/dictionary',
+    .state('tab.record-detail', {
+      url: '/record/:recordId',
       views: {
-        'tab-dictionary': {
-          templateUrl: 'templates/tab-dictionary.html',
-          controller: 'DictionaryCtrl'
+        'tab-record': {
+          templateUrl: 'templates/record-detail.html',
+          controller: 'RecordDetailCtrl'
         }
       }
     })
-      .state('tab.dictionary-detail', {
-        url: '/dictionary/:chatId',
-        views: {
-          'tab-dictionary': {
-            templateUrl: 'templates/dictionary-detail.html',
-            controller: 'DictionaryDetailCtrl'
-          }
+  .state('tab.dictionary', {
+    url: '/dictionary',
+    views: {
+      'tab-dictionary': {
+        templateUrl: 'templates/tab-dictionary.html',
+        controller: 'DictionaryCtrl'
+      }
+    }
+  })
+    .state('tab.dictionary-detail', {
+      url: '/dictionary/:chatId',
+      views: {
+        'tab-dictionary': {
+          templateUrl: 'templates/dictionary-detail.html',
+          controller: 'DictionaryDetailCtrl'
         }
-      })
+      }
+    })
 
     .state('tab.setting', {
       url: '/setting',

@@ -20,6 +20,11 @@ angular.module('starter.controllers', [])
 
   .controller('RecordCtrl', function($scope) {})
 
+
+  .controller('DictionaryDetailCtrl', function($scope, $stateParams, Re) {
+
+  })
+
   .controller('DictionaryCtrl', function($scope, Chats) {
     $scope.chats = Chats.all();
     $scope.remove = function(chat) {

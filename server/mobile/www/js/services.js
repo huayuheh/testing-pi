@@ -254,4 +254,44 @@ angular.module('starter.services', [])
         return null;
       }
     };
-  });
+  })
+
+.factory('Records', function() {
+  // Might use a resource here that returns a JSON array
+  var severIPAddress = "http://10.0.1.30:6085";
+  // Some fake testing data
+  var records = [{
+    id: 0,
+    name: 'Rock Pigeon',
+    face: severIPAddress + '/assets/img/birds/26.jpg',
+    date: '03.19.07',
+    time: '6:35',
+    food: 'Millet',
+    note:''
+  }, {
+    id: 1,
+    name: 'Inca Dove',
+    face: severIPAddress + '/assets/img/birds/18.jpg',
+    date: '03.19.07',
+    time: '5:54',
+    food: 'Millet',
+    note:''
+    }];
+
+  return {
+    all: function() {
+      return records;
+    },
+    remove: function(record) {
+      records.splice(records.indexOf(record), 1);
+    },
+    get: function(recordID) {
+      for (var i = 0; i < records.length; i++) {
+        if (records[i].id === parseInt(recordID)) {
+          return records[i];
+        }
+      }
+      return null;
+    }
+  };
+});

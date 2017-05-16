@@ -19,7 +19,15 @@ angular.module('starter.controllers', [])
 
   .controller('DeviceCtrl', function($scope) {})
 
-  .controller('RecordCtrl', function($scope) {})
+  .controller('RecordCtrl', function($scope, Records) {
+    $scope.records = Records.all();
+    $scope.remove = function(record) {
+      Records.remove(record);
+    };
+  })
+    .controller('RecordDetailCtrl', function($scope, $stateParams, Records) {
+      $scope.record = Records.get($stateParams.recordId);
+    })
 
   .controller('DictionaryCtrl', function($scope, Chats) {
     $scope.chats = Chats.all();
