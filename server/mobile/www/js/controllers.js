@@ -1,7 +1,7 @@
 angular.module('starter.controllers', [])
 
   .controller('HomeCtrl', function($scope) {
-    $scope.view = 'http://192.168.0.16:9090/stream/video.mjpeg';
+    $scope.view = 'http://hana.local:9090/stream/video.mjpeg';
     $scope.turnLight = function(){
       console.log("Light");
       socket.emit('event:light', true);
@@ -25,7 +25,7 @@ angular.module('starter.controllers', [])
       console.log( url );
 $scope.$apply(function(){
       if( url == 'live' ){
-        $scope.view = 'http://192.168.0.16:9090/stream/video.mjpeg';
+        $scope.view = 'http://hana.local:9090/stream/video.mjpeg';
       } else {
 	$scope.view = MAHRIO_IP_PORT + url;
       }
@@ -70,7 +70,7 @@ $scope.$apply(function(){
 .controller('DashCtrl', function($scope) {
   var showTime = new Date();
   var photoTimeSave = showTime;
-  var severIPAddress = "http://10.0.1.34:8080";
+  var severIPAddress = "http://hana.local:8080";
   $scope.captureNote = "No motion";
   $scope.captureTime = "";
   $scope.captureImage = severIPAddress + "/assets/img/logo-color-s.jpg";
@@ -103,7 +103,7 @@ $scope.$apply(function(){
 })
 .controller('PhotoCtrl', function($scope) {
     var showTime = new Date();
-    var severIPAddress = "http://10.0.1.34:8080";
+    var severIPAddress = "http://hana.local:8080";
 
 
     socket.on('event:takephoto', function( photoTime ) {
