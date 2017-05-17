@@ -32,14 +32,7 @@ require('mahrio').runServer( process.env, __dirname ).then( function( server ) {
     }
   });
 
-    client.messages.create({
-        body: 'Server Running',
-        to: '+14159990504',  // Text this number
-        from: '+14159694541' // From a valid Twilio number
-    }).then(function(message){
-        console.log(message.sid)
-        console.log('message sent');
-    });
+
 
 
   var io = require('socket.io').listen( server.listener );
@@ -70,6 +63,14 @@ require('mahrio').runServer( process.env, __dirname ).then( function( server ) {
               }
               if (val) {
                   console.log('motion sensor detect something');
+                  // client.messages.create({
+                  //     body: 'Peeper Feeder detects some motions, check it out on Peeper App ',
+                  //     to: '+14159990504',  // Text this number
+                  //     from: '+14159694541' // From a valid Twilio number
+                  // }).then(function(message){
+                  //     console.log(message.sid)
+                  //     console.log('message sent');
+                  // });
               }
           });
 
