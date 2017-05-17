@@ -59,7 +59,25 @@ $scope.$apply(function(){
       $scope.chat = Chats.get($stateParams.chatId);
     })
 
-  .controller('SettingCtrl', function($scope) {})
+  .controller('SettingCtrl', function($scope) {
+
+    $scope.pushNotificationChange = function() {
+      console.log('Push Notification Change', $scope.pushNotification.checked);
+      if($scope.pushNotification.checked == true){
+        socket.emit('event:textSMS', $scope.pushNotification.checked);
+        console.log("turn on the SMS")
+      }
+
+    };
+
+    $scope.pushNotification = { checked: false };
+
+
+
+
+
+
+  })
 
   .controller("AlertDetailCtrl", function($scope) {})
 

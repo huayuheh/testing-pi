@@ -4,12 +4,13 @@ var gpio = require('onoff').Gpio,
     cameraMode = camera.status().mode,
     led1 = new gpio(27, 'out'),
     led2 = new gpio(22, 'out'),
+    motion = new gpio(21, 'in', 'both'),
     buzzer = new gpio(12, 'out');
 
 var ledState = 0;
 
 
-// Twilio, the SMS system service
+// Twilio, the SMS system servicegit
 var accountSid = 'AC70731db98f0a7ad0863697704e8e4716';
 var authToken = '281c19c81e4762364b53524f5bf7eadc';
 var twilio = require('twilio');
@@ -61,6 +62,21 @@ require('mahrio').runServer( process.env, __dirname ).then( function( server ) {
               buzzer.writeSync(0);
           }, 3000);
       });
+      socket.on('event:textSMS', function () {
+          motion.watch( function(err, val) {
+              if (err) {
+                  console.log('Motion in 21 Error');
+                  return;
+              }
+              if (val) {
+                  console.log('motion sensor detect something');
+              }
+          });
+
+      });
+
+
+
       //Raspicam
       socket.on('event:camera:photo', function(){
         

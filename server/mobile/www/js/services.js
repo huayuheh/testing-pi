@@ -262,16 +262,16 @@ angular.module('starter.services', [])
   // Some fake testing data
   var records = [{
     id: 0,
-    name: 'Rock Pigeon',
-    face: severIPAddress + '/assets/img/birds/26.jpg',
+    name: 'Testing',
+    face: severIPAddress + '/images/myImg_2017-05-17T01:36:18.025Z.jpg',
     date: '03.19.07',
     time: '6:35',
     food: 'Millet',
-    note:''
+    note:'Take picture Testing'
   }, {
     id: 1,
     name: 'Inca Dove',
-    face: severIPAddress + '/assets/img/birds/18.jpg',
+    face: severIPAddress + '/images/18.jpg',
     date: '03.19.07',
     time: '5:54',
     food: 'Millet',
