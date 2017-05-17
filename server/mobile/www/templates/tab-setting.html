@@ -2,10 +2,15 @@
   <ion-content class=" padding">
     <h2 class="padding-bottom">Motion Alert Setting</h2>
     <div class="list">
-      <a class="item only-one" href="#/tab/setting-alert">Alert type
-        <span class="item-note">Alert + Photo</span>
-
+      <ion-toggle class="item item-first my-toggle" ng-model="pushNotification.checked"
+                  ng-change="pushNotificationChange()">
+        SMS
+      </ion-toggle>
+      <a class="item item-last" href="#/tab/setting-alert">Alert type
+        <span class="item-note">Text only</span>
       </a>
+
+
     </div>
     <h2 class="padding-bottom">Photo Setting</h2>
     <div class="list">
