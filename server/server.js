@@ -2,10 +2,12 @@
 var gpio = require('onoff').Gpio,
     camera = require('./camera')(),
     cameraMode = camera.status().mode,
-    led1 = new gpio(27, 'out'),
-    led2 = new gpio(22, 'out'),
-    motion = new gpio(21, 'in', 'both'),
-    buzzer = new gpio(12, 'out');
+    led1 = new gpio(26, 'out'),
+    led2 = new gpio(12, 'out'),
+    led3 = new gpio(24, 'out'),
+    led4 = new gpio(16, 'out'),
+    motion = new gpio(4, 'in', 'both'),
+    buzzer = new gpio(18, 'out');
 
 var ledState = 0;
 
